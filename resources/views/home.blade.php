@@ -123,7 +123,7 @@
     </section><!-- /Hero Section -->
 
     <!-- Get Started Section -->
-    <section id="" class="get-started section">
+    <section id="#" class="get-started section">
     </section>
     <!-- /Get Started Section -->
 
@@ -484,7 +484,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Cerita Jujur Dari Clien Tukang Banten</h2>
+        <h2>Cerita Jujur Dari Client Tukang Banten</h2>
+        <p>Klien kami di Tukang Banten sering berbagi pengalaman positif tentang hasil kerja kami, mulai dari ketepatan desain hingga kualitas pengerjaan.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -709,10 +710,10 @@
           <span class="sitename">Tukang<span class="highlight">Banten.</span></span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>Jl Pasir Ona</p>
+            <p>Rangkasbitung Lebak Banten</p>
+            <p class="mt-3"><strong>Telepon:</strong> <span>081318758831</span></p>
+            <p><strong>Email:</strong> <span>TukangBanten@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -731,7 +732,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">SehanDikiTriansyah</a>
+        Designed by <a href="https://github.com/SEHANDIKITRIANSYAH12">SehanDikiTriansyah</a>
       </div>
     </div>
 

@@ -45,9 +45,9 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-        <li><a href="{{ url('/home') }}" class="active">Jadimitra</a></li>
+        <li><a href="{{ url('/home') }}" class="">Jadimitra</a></li>
 
-          <li class="dropdown"><a href="#"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
             <li><a href="{{ url('/jasa1') }}">JASABANGUNRUMAH</a></li>
               <li><a href="#">Dropdown 2</a></li>
@@ -72,7 +72,7 @@
       <h1 class="sitename">Tukang<span class="highlight">Banten.</span></h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="/">JASARENOVASIRUMAH</a></li>
+            <li><a href="jasa1">JASARENOVASIRUMAH</a></li>
             <li class="current">JASABANGUNRUMAH</li>
           </ol>
         </nav>
@@ -87,7 +87,7 @@
         <img src="assets/img/gmbrjasarumah.jpg" alt="Gambar Jasa Renovasi Rumah">
       </div>
       <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-        <h2 class="inner-title">KENAPA HARUS PAKAI JASA KAMI</h2>
+        <h2 class="inner-title">KENAPA HARUS PAKAI JASA KAMI ?</h2>
         <div class="our-story">
           <h4></h4>
           <h3>PERJALANAN KAMI</h3>
@@ -99,7 +99,7 @@
           </ul>
           <div class="watch-video d-flex align-items-center position-relative">
             <i class="bi bi-play-circle"></i>
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox stretched-link">Watch Video</a>
+            <a href="https://www.youtube.com/watch?v=_QMEmCHDFMw" class="glightbox stretched-link">Watch Video</a>
           </div>
         </div>
       </div>
@@ -109,85 +109,89 @@
 <!-- /About Section -->
 
 
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
+    <!-- Contoh Model Rumah Section -->
+    <section id="projects" class="projects section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Model Contoh Rumah Yang Kami Kerjakan</h2>
-        
-      </div><!-- End Section Title -->
-
+        <h2>Contoh Model Rumah Yang Kami Kerjakan</h2>
+        <p> Kami berkomitmen untuk mewujudkan desain yang sesuai dengan kebutuhan dan selera klien, mulai dari konsep modern minimalis hingga klasik yang elegan.</p>
+      </div>
       <div class="container">
-        <div class="row gy-5">
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="member-img">
-            <img src="{{ asset('assets/img/rumah/rumah1.jpg') }}" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Contoh 1</h4>
-            </div>
-          </div><!-- End Team Member -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+              <div class="portfolio-content h-100">
+              <img src="{{ asset('assets/img/rumah/gambarumah1.png') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Example 1</h4>
+                  <a href="assets/img/rumah/gambarumah1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="member-img">
-            <img src="{{ asset('assets/img/rumah/rumah2.jpg') }}" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+              <div class="portfolio-content h-100">
+              <img src="{{ asset('assets/img/rumah/gambarumah2.png') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Example 2</h4>
+                  <a href="assets/img/rumah/gambarumah2.png" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-            </div>
-            <div class="member-info text-center">
-              <h4>Contoh 2</h4>
-            </div>
-          </div><!-- End Team Member -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+              <div class="portfolio-content h-100">
+              <img src="{{ asset('assets/img/rumah/gambarumah3.png') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Example 3</h4>
+                  <a href="assets/img/rumah/gambarumah3.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="member-img">
-              <img src="{{ asset('assets/img/rumah/rumah3.jpg') }}" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Contoh 3</h4>
-            </div>
-          </div><!-- End Team Member -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+              <img src="{{ asset('assets/img/rumah/gambarumah4.png') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Example 4</h4>
+                  <a href="assets/img/rumah/gambarumah4.png" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-            <div class="member-img">
-            <img src="{{ asset('assets/img/rumah/rumah4.jpg') }}" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Contoh 4</h4>
-            </div>
-          </div><!-- End Team Member -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
+              <div class="portfolio-content h-100">
+              <img src="{{ asset('assets/img/rumah/gambarumah5.png') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Example 5</h4>
+                  <a href="assets/img/rumah/gambarumah5.png" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
-            <div class="member-img">
-            <img src="{{ asset('assets/img/rumah/rumah5.jpg') }}" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Contoh 5</h4>
-            </div>
-          </div><!-- End Team Member -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+              <div class="portfolio-content h-100">
+              <img src="{{ asset('assets/img/rumah/gambarumah6.png') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Example 6</h4>
+                  <a href="assets/img/rumah/gambarumah6.png" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
-            <div class="member-img">
-            <img src="{{ asset('assets/img/rumah/rumah6.jpg') }}" class="img-fluid" alt="">
-            </div>
-            <div class="member-info text-center">
-              <h4>Contoh 6</h4>
-            </div>
-          </div><!-- End Team Member -->
+          </div><!-- End Portfolio Container -->
 
         </div>
 
       </div>
 
-    </section><!-- /Team Section -->
-
+    </section><!-- /Projects Section -->
    
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Cerita Jujur Dari Clien Tukang Banten</h2>
+        <h2>Cerita Jujur Dari Client Tukang Banten</h2>
+        <p>Klien kami di Tukang Banten sering berbagi pengalaman positif tentang hasil kerja kami, mulai dari ketepatan desain hingga kualitas pengerjaan.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -433,7 +437,7 @@
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">SehanDikiTriansyah</a>
+        Designed by <a href="https://github.com/SEHANDIKITRIANSYAH12">SehanDikiTriansyah</a>
       </div>
     </div>
 
