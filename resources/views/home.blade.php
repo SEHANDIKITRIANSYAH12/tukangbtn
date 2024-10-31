@@ -638,7 +638,7 @@
     <div class="col-lg-3 col-md-6">
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
         <i class="bi bi-telephone"></i>
-        <h3>Hubungi Kami</h3>
+        <h3>Call US</h3>
         <p>081318758831</p>
       </div>
     </div><!-- End Info Item -->
