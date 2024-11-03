@@ -14,6 +14,10 @@ Route::get('/jasa1', function () {
     return view('jasa1');
 });
 
+Route::get('/jasa2', function () {
+    return view('jasa2');
+});
+
 Route::get('/contact', function () {
     return view('contact'); // Ganti dengan nama view Anda
 })->name('contact');

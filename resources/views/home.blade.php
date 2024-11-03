@@ -45,31 +45,31 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
+<header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="/" class="logo d-flex align-items-center">
-      <img src="{{ asset('assets/img/logoheader.png') }}" alt="Logo" class="me-2 logo-header">
-    <h1 class="sitename">Tukang</h1> <span>Banten.</span>
-        </a>
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="{{ asset('assets/img/logoheader.png') }}" alt="Logo" class="me-2 logo-header">
+        <h1 class="sitename">Tukang</h1> <span>Banten.</span>
+      </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
         <li><a href="{{ url('/home') }}" class="active">Jadimitra</a></li>
 
-          <li class="dropdown"><a href="#"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <li class="dropdown"><a href="#" class=""><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-            <li><a href="{{ url('/jasa1') }}">JASABANGUNRUMAH</a></li>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+            <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
+            <li><a href="{{ url('/jasa2') }}">Pembuatan Bar dan Kafe</a></li>
+            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Pijat</a></li>
+            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Meeting</a></li>
             </ul>
           </li>
         </ul>
+        </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
     </div>
   </header>
 
@@ -86,7 +86,8 @@
               <p>
               "Layanan jasa profesional dan handal untuk kebutuhan konstruksi Anda. Kami hadir memberikan solusi cepat, tepat, dan terpercaya di setiap proyek."
               </p>
-              <a href="#get-started" class="btn-get-started">Get Started</a>
+              <a href="#about-section" class="btn-get-started">Get Started</a>
+              
             </div>
           </div>
         </div>
@@ -117,30 +118,22 @@
         <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
         </a>
-
       </div>
-
     </section><!-- /Hero Section -->
-
-    <!-- Get Started Section -->
-    <section id="#" class="get-started section">
-    </section>
-    <!-- /Get Started Section -->
-
-    <div class="container section-title" data-aos="fade-up">
+    
+    <!-- about section -->
+<div id="about-section" class="about-section" data-aos="fade-up">
+    <div class="container section-title">
       <h2>Tentang Kami</h2>
       <p>Apa itu Tukang Banten?</p>
-      </div>
-      <!-- About section Title -->
-
-<div class="container about-description" data-aos="fade-up" data-aos-delay="100">
-  <p>
-    <strong>Tukang Banten</strong> adalah penyedia layanan konstruksi yang berbasis di Banten, menghadirkan solusi profesional untuk pembangunan dan renovasi bangunan serta infrastruktur jalan. Dengan pengalaman dan keahlian yang mendalam, kami berkomitmen untuk memberikan kualitas terbaik dalam setiap proyek, mulai dari perencanaan, desain, hingga eksekusi. Kami memahami pentingnya ketepatan waktu dan ketelitian, sehingga setiap layanan kami dirancang untuk memenuhi kebutuhan dan standar tinggi klien.
-  </p>
-  <p>
-    Di Tukang Banten, kami percaya bahwa setiap proyek adalah investasi untuk masa depan. Oleh karena itu, kami menggunakan material berkualitas dan metode kerja yang efisien untuk memastikan daya tahan dan keamanan setiap hasil pekerjaan kami. Baik untuk kebutuhan konstruksi bangunan, renovasi, maupun infrastruktur jalan, kami siap menjadi mitra terpercaya Anda dalam menciptakan lingkungan yang lebih baik dan berkelanjutan.
-  </p>
+    </div>
 </div>
+    <div class="container about-description" data-aos="fade-up" data-aos-delay="100">
+      <p><strong>Tukang Banten</strong> Adalah penyedia layanan konstruksi yang berbasis di Banten, menghadirkan solusi profesional untuk pembangunan dan renovasi bangunan serta infrastruktur jalan. Dengan pengalaman dan keahlian yang mendalam, kami berkomitmen untuk memberikan kualitas terbaik dalam setiap proyek, mulai dari perencanaan, desain, hingga eksekusi. Kami memahami pentingnya ketepatan waktu dan ketelitian, sehingga setiap layanan kami dirancang untuk memenuhi kebutuhan dan standar tinggi klien.</p>
+      <p> Di Tukang Banten, kami percaya bahwa setiap proyek adalah investasi untuk masa depan. Oleh karena itu, kami menggunakan material berkualitas dan metode kerja yang efisien untuk memastikan daya tahan dan keamanan setiap hasil pekerjaan kami. Baik untuk kebutuhan konstruksi bangunan, renovasi, maupun infrastruktur jalan, kami siap menjadi mitra terpercaya Anda dalam menciptakan lingkungan yang lebih baik dan berkelanjutan.</p>
+    </div>
+</div>
+
 
     <!-- Layanan kami section -->
     <section id="constructions" class="constructions section">
@@ -227,7 +220,6 @@
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Mulai Proyek Anda Sekarang</h2>
@@ -312,9 +304,7 @@
         <h2>Project Kami</h2>
         <p></p>
       </div>
-
       <div class="container">
-
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">

@@ -34,7 +34,7 @@
 
 <body class="about-page">
 
-<header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="/" class="logo d-flex align-items-center">
@@ -71,7 +71,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="jasa1">JADIMITRA</a></li>
-            <li class="current">PEMBANGUNAN RUMAH TINGGAL</li>
+            <li class="current">BAR DAN KAFE</li>
           </ol>
         </nav>
       </div>
@@ -82,18 +82,19 @@
   <div class="container">
     <div class="row position-relative">
       <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/gmbrjasarumah.jpg" alt="Gambar Jasa Renovasi Rumah">
+        <img src="assets/img/furniture/bar.jpeg" alt="Gambar Jasa Renovasi Rumah">
       </div>
       <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
         <h2 class="inner-title">KENAPA HARUS PAKAI JASA KAMI ?</h2>
         <div class="our-story">
           <h4></h4>
-          <h3>PERJALANAN KAMI</h3>
-          <p>Kami telah menjadi pilihan utama dalam jasa renovasi rumah. Dengan pengalaman dan keahlian yang mumpuni, kami memberikan sentuhan baru pada setiap sudut rumah, menghadirkan hasil yang melebihi harapan Anda. Kami memahami bahwa setiap proyek renovasi adalah investasi besar bagi Anda, sehingga kami berkomitmen untuk menyediakan layanan yang jujur, profesional, dan berkualitas tinggi. Kami melayani berbagai kebutuhan renovasi, mulai dari perbaikan kecil hingga renovasi total. Setiap pekerjaan dilakukan dengan penuh perhatian terhadap detail, kualitas material, dan ketepatan waktu, memastikan rumah Anda menjadi tempat yang nyaman dan indah untuk ditinggali.</p>
+          <h3>BAR DAN KAFE</h3>
+          <p>Kami menyediakan layanan desain dan pembangunan bar dan kafe yang menarik dan fungsional, menciptakan ruang yang tidak hanya nyaman tetapi juga menawan. Tim ahli kami bekerja sama dengan Anda untuk mengembangkan konsep yang sesuai dengan identitas merek dan target pasar Anda.</p>
           <ul>
-            <li><i class="bi bi-check-circle"></i> <span>"Kami bekerja dengan dedikasi penuh untuk menghadirkan hasil renovasi yang berkualitas, tepat waktu, dan sesuai keinginan Anda."</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Tim ahli kami siap membantu Anda mewujudkan visi rumah impian dengan layanan yang dapat diandalkan."</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Menggunakan material terbaik dan teknik renovasi terkini, kami memastikan setiap sudut rumah direnovasi dengan standar tertinggi."</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Desain Kreatif dan Estetis"</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Fungsionalitas dan Kenyamanan"</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Material Berkualitas"</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Pelayanan profesional"</span></li>
           </ul>
           <div class="watch-video d-flex align-items-center position-relative">
             <i class="bi bi-play-circle"></i>
@@ -115,10 +116,10 @@
             <img src="assets/img/furniture/bar.jpeg" class="d-block w-100" alt="Desain Interior 1">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/furniture/kamarmandicafe.jpeg" class="d-block w-100" alt="Desain Interior 2">
+            <img src="assets/img/furniture/cafe.jpeg" class="d-block w-100" alt="Desain Interior 2">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/furniture/ruangpijat.jpeg" class="d-block w-100" alt="Desain Interior 3">
+            <img src="assets/img/furniture/kamarmandicafe.jpeg" class="d-block w-100" alt="Desain Interior 3">
           </div>
 
         </div>
@@ -133,44 +134,43 @@
       </div>
       <!-- Text and Icon Boxes -->
       <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-    <h3>Desain Interior Rumah Impian Anda</h3>
-    <p>Kami menawarkan berbagai konsep desain interior untuk menciptakan suasana rumah yang hangat dan fungsional sesuai gaya hidup Anda. Dari ruang tamu yang nyaman dengan pencahayaan yang tepat hingga kamar tidur yang memberikan relaksasi optimal. Kami juga menyediakan solusi penyimpanan praktis melalui desain kabinet yang sesuai dengan kebutuhan Anda serta mempercantik ruang makan dengan meja dan kursi yang elegan. Setiap elemen interior kami dirancang agar serasi dengan tema rumah dan menghadirkan keindahan sekaligus kenyamanan di setiap sudutnya.</p>
+    <h3>Desain Bar dan Kafe Impian Anda</h3>
+    <p>Kami menawarkan berbagai konsep desain untuk menciptakan suasana bar dan kafe yang menarik dan fungsional sesuai dengan visi bisnis Anda. Dari bar yang menyenangkan dengan pencahayaan yang tepat hingga area kafe yang memberikan kenyamanan optimal bagi pengunjung. Kami juga menyediakan solusi desain interior yang praktis dengan pilihan furnitur yang sesuai dengan kebutuhan Anda, serta elemen dekoratif yang mempercantik ruang. Setiap aspek desain kami dirancang untuk serasi dengan tema bar atau kafe Anda, menghadirkan keindahan sekaligus pengalaman menyenangkan bagi setiap pelanggan.</p>
     
     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-        <i class="fas fa-couch flex-shrink-0"></i> <!-- Ganti dengan ikon baru -->
-        <div>
-            <h4><a href="" class="stretched-link">Ruang Tamu</a></h4>
-            <p>Desain yang menyambut dan nyaman dengan sofa, meja, dan pencahayaan estetis.</p>
-        </div>
-    </div>
-    
-    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-        <i class="fas fa-bath flex-shrink-0"></i> <!-- Ganti dengan ikon baru -->
-        <div>
-            <h4><a href="" class="stretched-link">Kamar Mandi</a></h4>
-            <p>Desain elegan dengan shower, wastafel, dan perlengkapan lain yang tahan lama.</p>
-        </div>
-    </div>
-    
-    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-        <i class="fas fa-utensils flex-shrink-0"></i> <!-- Ganti dengan ikon baru -->
-        <div>
-            <h4><a href="" class="stretched-link">Dapur Modern</a></h4>
-            <p>Kabinet, countertop, dan peralatan dapur yang fungsional untuk memaksimalkan ruang.</p>
-        </div>
-    </div>
-    
-    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-        <i class="fas fa-chair flex-shrink-0"></i> <!-- Ganti dengan ikon baru -->
-        <div>
-            <h4><a href="" class="stretched-link">Ruang Makan</a></h4>
-            <p>Meja dan kursi bergaya yang menghadirkan keindahan dan kenyamanan saat makan bersama.</p>
-        </div>
+    <i class="fas fa-glass-cheers flex-shrink-0"></i> <!-- Ikon Bar -->
+    <div>
+        <h4><a href="" class="stretched-link">Bar</a></h4>
+        <p>Desain yang ramah dan mengundang, dilengkapi dengan meja bar yang stylish, kursi yang nyaman, dan pencahayaan yang menciptakan suasana hangat dan akrab.</p>
     </div>
 </div>
 
+<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+    <i class="fas fa-coffee flex-shrink-0"></i> <!-- Ikon Kafe -->
+    <div>
+        <h4><a href="" class="stretched-link">Kafe</a></h4>
+        <p>Ruang kafe yang nyaman dan estetis, dengan meja dan kursi yang dirancang untuk memaksimalkan interaksi sosial dan memberikan kenyamanan saat bersantai.</p>
+    </div>
+</div>
 
-    <!-- Contoh Model Rumah Section -->
+<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+    <i class="fas fa-seedling flex-shrink-0"></i> <!-- Ikon Area Luar Ruangan -->
+    <div>
+        <h4><a href="" class="stretched-link">Area Luar Ruangan</a></h4>
+        <p>Desain teras atau area luar yang menyegarkan, dengan furnitur luar ruangan yang stylish dan elemen hijau yang menambah kesan natural.</p>
+    </div>
+</div>
+
+<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+    <i class="fas fa-paint-brush flex-shrink-0"></i> <!-- Ikon Dekorasi Interior -->
+    <div>
+        <h4><a href="" class="stretched-link">Dekorasi Interior</a></h4>
+        <p>Pilihan dekorasi yang unik dan menarik, mulai dari seni dinding hingga aksesori yang memperkuat tema bar atau kafe Anda, menciptakan pengalaman visual yang tak terlupakan bagi pengunjung.</p>
+    </div>
+</div>
+
+</div>
+
     <section id="projects" class="projects section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Contoh Desain Interor Dan Eksterior Yang Kami Kerjakan</h2>
@@ -306,9 +306,6 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-
-
-
           </div><!-- End Portfolio Container -->
         </div>
       </div>
@@ -316,7 +313,6 @@
    
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Cerita Jujur Dari Client Tukang Banten</h2>
@@ -448,6 +444,7 @@
       </div>
     </section>
     <!-- /Testimonials Section -->
+
      <!-- Layanan kami section -->
      <div class="container section-title" data-aos="fade-up">
         <h2>Hubungi Kami</h2>
