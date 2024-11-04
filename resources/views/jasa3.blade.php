@@ -48,11 +48,10 @@
         <li><a href="{{ url('/home') }}" class="">Jadimitra</a></li>
 
         <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
+        <ul>
             <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
-            <li><a href="{{ url('/jasa2') }}">Pembuatan Bar dan Kafe</a></li>
-            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Pijat</a></li>
-            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Meeting</a></li>
+            <li><a href="{{ url('/jasa2') }}">Jasa Desain Bar dan Kafe</a></li>
+            <li><a href="{{ url('/jasa3') }}">Jasa Pemasangan Parquet</a></li>
             </ul>
           </li>
         </ul>
@@ -65,13 +64,13 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title dark-background" style="background-image: url(assets/img/furniture/parquetbg.jpg);">
       <div class="container position-relative">
       <h1 class="sitename">Tukang<span class="highlight">Banten.</span></h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="jasa1">JADIMITRA</a></li>
-            <li class="current">RUANG PIJAT</li>
+            <li class="current">LAYANAN PEMASANGAN PARQUET</li>
           </ol>
         </nav>
       </div>
@@ -82,20 +81,21 @@
   <div class="container">
     <div class="row position-relative">
       <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/furniture/bar.jpeg" alt="Gambar Jasa Renovasi Rumah">
+        <img src="assets/img/furniture/parquet4.png" alt="Gambar Jasa Renovasi Rumah">
       </div>
       <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
         <h2 class="inner-title">KENAPA HARUS PAKAI JASA KAMI ?</h2>
         <div class="our-story">
           <h4></h4>
-          <h3>BAR DAN KAFE</h3>
-          <p>Kami menyediakan layanan desain dan pembangunan bar dan kafe yang menarik dan fungsional, menciptakan ruang yang tidak hanya nyaman tetapi juga menawan. Tim ahli kami bekerja sama dengan Anda untuk mengembangkan konsep yang sesuai dengan identitas merek dan target pasar Anda.</p>
+          <h3>LAYANAN PEMASANGAN PARQUET</h3>
+          <p>Kami menyediakan jasa pemasangan parquet untuk berbagai jenis ruang, baik untuk hunian pribadi maupun komersial. Parquet merupakan pilihan yang elegan dan tahan lama, memberikan nuansa alami serta kehangatan pada ruangan. Kami menawarkan berbagai opsi material parquet, seperti kayu solid dan engineered, yang masing-masing memiliki karakteristik tersendiri.</p>
           <ul>
             <li><i class="bi bi-check-circle"></i> <span>"Desain Kreatif dan Estetis"</span></li>
             <li><i class="bi bi-check-circle"></i> <span>"Fungsionalitas dan Kenyamanan"</span></li>
             <li><i class="bi bi-check-circle"></i> <span>"Material Berkualitas"</span></li>
             <li><i class="bi bi-check-circle"></i> <span>"Pelayanan profesional"</span></li>
           </ul>
+          <p>Layanan pemasangan parquet kami adalah pilihan ideal untuk mempercantik ruangan seperti ruang tamu, kamar tidur, hingga area komersial seperti butik dan restoran, menciptakan suasana elegan dan nyaman bagi para pengguna.</p>
           <div class="watch-video d-flex align-items-center position-relative">
             <i class="bi bi-play-circle"></i>
             <a href="https://www.youtube.com/watch?v=_QMEmCHDFMw" class="glightbox stretched-link">Watch Video</a>
@@ -113,13 +113,13 @@
       <div id="carouselExample" class="carousel slide col-lg-6" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="100">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/furniture/bar.jpeg" class="d-block w-100" alt="Desain Interior 1">
+            <img src="assets/img/furniture/parquet.jpeg" class="d-block w-100" alt="Desain Interior 1">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/furniture/cafe.jpeg" class="d-block w-100" alt="Desain Interior 2">
+            <img src="assets/img/furniture/parquet3.png" class="d-block w-100" alt="Desain Interior 2">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/furniture/kamarmandicafe.jpeg" class="d-block w-100" alt="Desain Interior 3">
+            <img src="assets/img/furniture/parquet2.png" class="d-block w-100" alt="Desain Interior 3">
           </div>
 
         </div>
@@ -134,177 +134,113 @@
       </div>
       <!-- Text and Icon Boxes -->
       <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-    <h3>Desain Bar dan Kafe Impian Anda</h3>
-    <p>Kami menawarkan berbagai konsep desain untuk menciptakan suasana bar dan kafe yang menarik dan fungsional sesuai dengan visi bisnis Anda. Dari bar yang menyenangkan dengan pencahayaan yang tepat hingga area kafe yang memberikan kenyamanan optimal bagi pengunjung. Kami juga menyediakan solusi desain interior yang praktis dengan pilihan furnitur yang sesuai dengan kebutuhan Anda, serta elemen dekoratif yang mempercantik ruang. Setiap aspek desain kami dirancang untuk serasi dengan tema bar atau kafe Anda, menghadirkan keindahan sekaligus pengalaman menyenangkan bagi setiap pelanggan.</p>
+    <h3>Desain dan Pemasangan Parquet Impian Anda</h3>
+    <p>Kami menawarkan layanan pemasangan parquet untuk menciptakan suasana ruangan yang hangat, elegan, dan alami sesuai kebutuhan Anda. Mulai dari ruang tamu hingga area komersial, kami memastikan setiap ruangan tampil cantik dengan pilihan parquet yang tepat. Kami menyediakan solusi desain interior praktis dengan material parquet berkualitas tinggi dan berbagai pola menarik, memberikan kesan modern dan mewah pada ruang Anda. Setiap langkah pemasangan parquet dirancang untuk melengkapi tema dan gaya yang diinginkan, menghadirkan nuansa nyaman sekaligus estetis di setiap sudut ruangan.</p>
     
     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-    <i class="fas fa-glass-cheers flex-shrink-0"></i> <!-- Ikon Bar -->
+    <i class="fas fa-th-large flex-shrink-0"></i> <!-- Ikon yang lebih cocok untuk Desain Parquet -->
     <div>
-        <h4><a href="" class="stretched-link">Bar</a></h4>
-        <p>Desain yang ramah dan mengundang, dilengkapi dengan meja bar yang stylish, kursi yang nyaman, dan pencahayaan yang menciptakan suasana hangat dan akrab.</p>
+        <h4><a href="" class="stretched-link">Desain Parquet</a></h4>
+        <p>Kami membantu Anda memilih jenis parquet yang sesuai, dengan pola-pola klasik seperti herringbone, chevron, dan pola acak yang mampu memberikan karakter unik pada ruangan.</p>
     </div>
 </div>
 
 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-    <i class="fas fa-coffee flex-shrink-0"></i> <!-- Ikon Kafe -->
+    <i class="fas fa-tree flex-shrink-0"></i> <!-- Ikon yang lebih cocok untuk Material Berkualitas -->
     <div>
-        <h4><a href="" class="stretched-link">Kafe</a></h4>
-        <p>Ruang kafe yang nyaman dan estetis, dengan meja dan kursi yang dirancang untuk memaksimalkan interaksi sosial dan memberikan kenyamanan saat bersantai.</p>
+        <h4><a href="" class="stretched-link">Material Berkualitas</a></h4>
+        <p>Kami menawarkan berbagai pilihan parquet dari kayu solid hingga engineered wood yang tahan lama, ramah lingkungan, dan cocok untuk berbagai kondisi ruangan.</p>
     </div>
 </div>
 
 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-    <i class="fas fa-seedling flex-shrink-0"></i> <!-- Ikon Area Luar Ruangan -->
+    <i class="fas fa-tools flex-shrink-0"></i> <!-- Ikon yang lebih cocok untuk Pemasangan Profesional -->
     <div>
-        <h4><a href="" class="stretched-link">Area Luar Ruangan</a></h4>
-        <p>Desain teras atau area luar yang menyegarkan, dengan furnitur luar ruangan yang stylish dan elemen hijau yang menambah kesan natural.</p>
+        <h4><a href="" class="stretched-link">Pemasangan Profesional</a></h4>
+        <p>Tim kami yang berpengalaman akan memastikan setiap potongan parquet dipasang dengan presisi, menciptakan hasil akhir yang rapi dan kokoh.</p>
     </div>
 </div>
 
 <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-    <i class="fas fa-paint-brush flex-shrink-0"></i> <!-- Ikon Dekorasi Interior -->
+    <i class="fas fa-brush flex-shrink-0"></i> <!-- Ikon yang lebih cocok untuk Finishing & Perawatan -->
     <div>
-        <h4><a href="" class="stretched-link">Dekorasi Interior</a></h4>
-        <p>Pilihan dekorasi yang unik dan menarik, mulai dari seni dinding hingga aksesori yang memperkuat tema bar atau kafe Anda, menciptakan pengalaman visual yang tak terlupakan bagi pengunjung.</p>
+        <h4><a href="" class="stretched-link">Finishing & Perawatan</a></h4>
+        <p>Selain pemasangan, kami menyediakan layanan finishing untuk melindungi permukaan parquet serta perawatan berkala agar parquet selalu tampak baru dan awet.</p>
     </div>
 </div>
+
 
 </div>
 
     <section id="projects" class="projects section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contoh Desain Interor Dan Eksterior Yang Kami Kerjakan</h2>
+        <h2>Contoh Desain Parquet</h2>
         <p> Kami berkomitmen untuk mewujudkan desain yang sesuai dengan kebutuhan dan selera klien, mulai dari konsep modern minimalis hingga klasik yang elegan.</p>
       </div>
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-<ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-  <li data-filter="*" class="filter-active">All</li>
-  <li data-filter=".filter-remodeling">Interior</li>
-  <li data-filter=".filter-construction">Eksterior</li>
-</ul><!-- End Portfolio Filters -->
 
       <div class="container">
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah1.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/parquet1.png') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 1</h4>
-                  <a href="assets/img/rumah/gambarumah1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/parquet1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah2.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/parquet2.png') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 2</h4>
-                  <a href="assets/img/rumah/gambarumah2.png" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/parquet2.png" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah3.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/parquet3.png') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 3</h4>
-                  <a href="assets/img/rumah/gambarumah3.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/parquet3.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah4.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/parquet4.png') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 4</h4>
-                  <a href="assets/img/rumah/gambarumah4.png" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/parquet4.png" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah5.png') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 5</h4>
-                  <a href="assets/img/rumah/gambarumah5.png" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah6.png') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/rumah/gambarumah6.png" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/kamarmandicafe.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/kamarmandicafe.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/bar.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/bar.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/cafe.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/cafe.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/kamar.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/kamar.jpeg" title="Villa Bianti Bali" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/ruangpijat.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/ruangpijat.jpeg" title="Natashia cilegon" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
               <img src="{{ asset('assets/img/furniture/parquet.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/parquet.jpeg" title="Parquet Villa Bianti Bali" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Example 5</h4>
+                  <a href="assets/img/furniture/parquet.jpeg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
+              <div class="portfolio-content h-100">
+              <img src="{{ asset('assets/img/furniture/parquet6.jpg') }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Example 5</h4>
+                  <a href="assets/img/furniture/parquet6.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
 
           </div><!-- End Portfolio Container -->
         </div>

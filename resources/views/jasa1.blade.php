@@ -50,9 +50,8 @@
         <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
             <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
-            <li><a href="{{ url('/jasa2') }}">Pembuatan Bar dan Kafe</a></li>
-            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Pijat</a></li>
-            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Meeting</a></li>
+            <li><a href="{{ url('/jasa2') }}">Jasa Desain Bar dan Kafe</a></li>
+            <li><a href="{{ url('/jasa3') }}">Jasa Pemasangan Parquet</a></li>
             </ul>
           </li>
         </ul>
@@ -71,7 +70,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="jasa1">JADIMITRA</a></li>
-            <li class="current">PEMBANGUNAN RUMAH TINGGAL</li>
+            <li class="current">JASA BANGUN RUMAH</li>
           </ol>
         </nav>
       </div>

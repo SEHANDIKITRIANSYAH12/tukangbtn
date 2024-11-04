@@ -48,11 +48,10 @@
         <li><a href="{{ url('/home') }}" class="">Jadimitra</a></li>
 
         <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
+           <ul>
             <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
-            <li><a href="{{ url('/jasa2') }}">Pembuatan Bar dan Kafe</a></li>
-            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Pijat</a></li>
-            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Meeting</a></li>
+            <li><a href="{{ url('/jasa2') }}">Jasa Desain Bar dan Kafe</a></li>
+            <li><a href="{{ url('/jasa3') }}">Jasa Pemasangan Parquet</a></li>
             </ul>
           </li>
         </ul>
@@ -65,7 +64,7 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title dark-background" style="background-image: url(assets/img/furniture/barbg.jpeg);">
       <div class="container position-relative">
       <h1 class="sitename">Tukang<span class="highlight">Banten.</span></h1>
         <nav class="breadcrumbs">
@@ -173,7 +172,7 @@
 
     <section id="projects" class="projects section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contoh Desain Interor Dan Eksterior Yang Kami Kerjakan</h2>
+        <h2>Contoh Desain Bar Dan Kafe </h2>
         <p> Kami berkomitmen untuk mewujudkan desain yang sesuai dengan kebutuhan dan selera klien, mulai dari konsep modern minimalis hingga klasik yang elegan.</p>
       </div>
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
@@ -188,63 +187,54 @@
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah1.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/bar.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 1</h4>
-                  <a href="assets/img/rumah/gambarumah1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/bar.jpeg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah2.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/cafe.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 2</h4>
-                  <a href="assets/img/rumah/gambarumah2.png" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/cafe.jpeg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah3.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/bar2.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 3</h4>
-                  <a href="assets/img/rumah/gambarumah3.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/bar2.jpeg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah4.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/cafe2.jpg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 4</h4>
-                  <a href="assets/img/rumah/gambarumah4.png" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/cafe2.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah5.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/cafe3.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 5</h4>
-                  <a href="assets/img/rumah/gambarumah5.png" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/cafe3.jpeg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/rumah/gambarumah6.png') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/rumah/gambarumah6.png" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
@@ -252,56 +242,6 @@
                 <div class="portfolio-info">
                   <h4>Example 6</h4>
                   <a href="assets/img/furniture/kamarmandicafe.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/bar.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/bar.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/cafe.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/cafe.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/kamar.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/kamar.jpeg" title="Villa Bianti Bali" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/ruangpijat.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/ruangpijat.jpeg" title="Natashia cilegon" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/parquet.jpeg" title="Parquet Villa Bianti Bali" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->

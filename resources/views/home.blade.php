@@ -59,11 +59,10 @@
         <li><a href="{{ url('/home') }}" class="active">Jadimitra</a></li>
 
         <li class="dropdown"><a href="#" class=""><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
+        <ul>
             <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
-            <li><a href="{{ url('/jasa2') }}">Pembuatan Bar dan Kafe</a></li>
-            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Pijat</a></li>
-            <li><a href="{{ url('/jasa3') }}">Pembuatan Ruang Meeting</a></li>
+            <li><a href="{{ url('/jasa2') }}">Jasa Desain Bar dan Kafe</a></li>
+            <li><a href="{{ url('/jasa3') }}">Jasa Pemasangan Parquet</a></li>
             </ul>
           </li>
         </ul>
@@ -184,12 +183,14 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="{{ asset('assets/img/constructions-3.jpg') }}" alt=""></div>
+                  <div class="card-bg"><img src="{{ asset('assets/img/furniture/barbg.jpeg') }}" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.</p>
+                    <h4 class="card-title">Jasa Desain Bar dan Cafe</h4>
+                    <p>• Desain Interior yang Memikat
+                    <br>• Konsultasi Konsep dan Gaya
+                    <br>• Pengoptimalan Tata Ruang</p>
                   </div>
                 </div>
               </div>
@@ -200,12 +201,15 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="{{ asset('assets/img/constructions-4.jpg') }}" alt=""></div>
+                  <div class="card-bg"><img src="{{ asset('assets/img/furniture/parquet3.png') }}" alt=""></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.</p>
+                    <h4 class="card-title">Jasa Pemasangan Parquet</h4>
+                    <p>• Desain Parquet
+                    <br>• Material Berkualitas
+                    <br>• Pemasangan Profesional
+                    <br>• Finishing & Perawatan</p>
                   </div>
                 </div>
               </div>
@@ -629,7 +633,7 @@
     <div class="col-lg-3 col-md-6">
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
         <i class="bi bi-telephone"></i>
-        <h3>Call US</h3>
+        <h3>Hubungi Kami</h3>
         <p>081318758831</p>
       </div>
     </div><!-- End Info Item -->
