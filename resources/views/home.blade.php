@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
   <!-- Vendor CSS Files -->
   <!-- Stylesheets -->
   <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -33,14 +33,6 @@
   <!-- Main CSS File -->
   <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
 
-
-  <!-- =======================================================
-  * Template Name: UpConstruction
-  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -51,20 +43,32 @@
       <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="{{ asset('assets/img/logoheader.png') }}" alt="Logo" class="me-2 logo-header">
-        <h1 class="sitename">Tukang</h1> <span>Banten.</span>
+        <h1 class="sitename">Tukang</h1><span>Banten.</span>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
         <li><a href="{{ url('/home') }}" class="active">Jadimitra</a></li>
 
-        <li class="dropdown"><a href="#" class=""><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-        <ul>
-            <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
-            <li><a href="{{ url('/jasa2') }}">Jasa Desain Bar dan Kafe</a></li>
-            <li><a href="{{ url('/jasa3') }}">Jasa Pemasangan Parquet</a></li>
-            </ul>
-          </li>
+        <li class="dropdown">
+          <a href="#" class=""><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="{{ url('/jasa1') }}" target="_blank">Jasa Tukang Bangun Civil</a></li>
+            <li><a href="{{ url('/jasa2') }}" target="_blank">Jasa Tukang Desain Gambar<br>Dan Perencanaan</a></li>
+            <li><a href="{{ url('/jasa3') }}" target="_blank">Jasa Tukang Parquet</a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Gajebo</a></li>
+           <!-- 
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Cleaning</a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Angkut</a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Buang Puing<br>Bangunan atau Proyek </a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Instalasi listrik</a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Pemasangan<br>Pipa</a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Pemasangan<br>AC & Service</a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Pengecatan<br>Rumah</a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Pembuatan<br>Lanscape Taman</a></li>
+            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Tralis dan kanopi</a></li>
+            -->
+          </ul>
+        </li>
         </ul>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -85,7 +89,8 @@
               <p>
               "Layanan jasa profesional dan handal untuk kebutuhan konstruksi Anda. Kami hadir memberikan solusi cepat, tepat, dan terpercaya di setiap proyek."
               </p>
-              <a href="#about-section" class="btn-get-started">Get Started</a>
+              <a href="https://wa.me/6281292948453" class="btn-get-started" target="_blank">Hubungi Kami</a>
+
               
             </div>
           </div>
@@ -120,27 +125,67 @@
       </div>
     </section><!-- /Hero Section -->
     
-    <!-- about section -->
-<div id="about-section" class="about-section" data-aos="fade-up">
-    <div class="container section-title">
-      <h2>Tentang Kami</h2>
-      <p>Apa itu Tukang Banten?</p>
+    <section class="max-w-7xl mx-auto p-6">
+  <div class="text-center mb-12">
+    <h2 class="text-black text-lg font-semibold"></h2>
+    <h1 class="text-4xl font-bold text-gray-600 mt-2">Layanan Konstruksi Terpercaya di Banten</h1>
+    <p class="text-gray-500 mt-4">
+      Tukang Banten menawarkan tenaga tukang yang terampil dan terpercaya untuk membantu Anda membangun dan memelihara proyek dengan  kualitas tinggi.
+    </p>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="flex flex-col items-center md:items-start">
+      <div class="flex justify-between w-full mb-8">
+        <div class="text-center md:text-left">
+          <h3 class="text-4xl font-bold text-yellow-500">10+</h3>
+          <p class="text-gray-500">Tahun Pengalaman</p>
+        </div>
+        <div class="text-center md:text-left">
+          <h3 class="text-4xl font-bold text-yellow-500">100+</h3>
+          <p class="text-gray-500">Proyek Selesai</p>
+        </div>
+        <div class="text-center md:text-left">
+          <h3 class="text-4xl font-bold text-yellow-500">200+</h3>
+          <p class="text-gray-500">Tenaga Kerja Terampil</p>
+        </div>
+      </div>
+      <img alt="Situs konstruksi dengan crane dan bangunan yang sedang dibangun" class="rounded-lg shadow-lg" height="400" src="https://sheltersengineering.com/wp-content/uploads/2023/06/Construction-Company-in-Islamabad.png" width="600"/>
     </div>
-</div>
-    <div class="container about-description" data-aos="fade-up" data-aos-delay="100">
-      <p><strong>Tukang Banten</strong> Adalah penyedia layanan konstruksi yang berbasis di Banten, menghadirkan solusi profesional untuk pembangunan dan renovasi bangunan serta infrastruktur jalan. Dengan pengalaman dan keahlian yang mendalam, kami berkomitmen untuk memberikan kualitas terbaik dalam setiap proyek, mulai dari perencanaan, desain, hingga eksekusi. Kami memahami pentingnya ketepatan waktu dan ketelitian, sehingga setiap layanan kami dirancang untuk memenuhi kebutuhan dan standar tinggi klien.</p>
-      <p> Di Tukang Banten, kami percaya bahwa setiap proyek adalah investasi untuk masa depan. Oleh karena itu, kami menggunakan material berkualitas dan metode kerja yang efisien untuk memastikan daya tahan dan keamanan setiap hasil pekerjaan kami. Baik untuk kebutuhan konstruksi bangunan, renovasi, maupun infrastruktur jalan, kami siap menjadi mitra terpercaya Anda dalam menciptakan lingkungan yang lebih baik dan berkelanjutan.</p>
+    <div class="flex flex-col justify-center">
+      <img alt="Gedung pencakar langit dan crane konstruksi" class="rounded-lg shadow-lg mb-8" height="400" src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=3394&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600"/>
+      <ul class="space-y-4">
+        <li class="flex items-center">
+          <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+          <span>Tenaga Kerja Konstruksi Terpercaya di Banten</span>
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+          <span>Layanan Berkualitas Tinggi, Tepat Waktu, dan Efisien Biaya</span>
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+          <span>Tukang Terampil untuk Setiap Pekerjaan</span>
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+          <span>Beragam Layanan Konstruksi</span>
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
+          <span>Ahli dalam Proyek Residensial dan Komersial</span>
+        </li>
+      </ul>
     </div>
-</div>
-
+  </div>
+</section>
 
     <!-- Layanan kami section -->
     <section id="constructions" class="constructions section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Layanan Kami</h2>
+        <br>
         <p>Layanan Konstruksi yang Ditawarkan</p>
       </div><!-- End Section Title -->
-
       <div class="container">
 
         <div class="row gy-4">
@@ -153,7 +198,7 @@
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="card-title">Jasa Konstruksi Bangunan</h4>
+                    <h4 class="card-title">Jasa Tukang Bangun Civil</h4>
                     <p>• Bangunan perumahan
                     <br>• Bangunan komersial (ruko, kantor)
                     <br>• Renovasi dan perbaikan </p>
@@ -164,62 +209,101 @@
           </div><!-- End Card Item -->
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="{{ asset('assets/img/jalan.jpg') }}" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Jasa Kontruksi Jalan</h4>
-                    <p> Kami menawarkan layanan konstruksi jalan berkualitas dengan hasil yang kuat dan tahan lama, dikerjakan oleh tenaga ahli berpengalaman sesuai standar keamanan tinggi.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="{{ asset('assets/img/furniture/barbg.jpeg') }}" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Jasa Desain Bar dan Cafe</h4>
-                    <p>• Desain Interior yang Memikat
-                    <br>• Konsultasi Konsep dan Gaya
-                    <br>• Pengoptimalan Tata Ruang</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="{{ asset('assets/img/furniture/parquet3.png') }}" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Jasa Pemasangan Parquet</h4>
-                    <p>• Desain Parquet
-                    <br>• Material Berkualitas
-                    <br>• Pemasangan Profesional
-                    <br>• Finishing & Perawatan</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/biangbambo/bambo3.jpeg') }}" alt="">
         </div>
-
       </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Gajebo</h4>
+          <table style="width: 100%; border-spacing: 0; color: white;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Gazebo Bambu dan Kayu</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Villa dan Bangunan Custom</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Furniture seperti Rak Sepatu dari Bambu dan Kayu</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/erd.jpg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Desain Gambar dan Perencanaan</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Desain Interior yang Memikat</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Konsultasi Konsep dan Gaya</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pengoptimalan Tata Ruang</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Card Item -->
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/furniture/parquet3.png') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Pemasangan Parquet</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Desain Parquet dan Vinyl Yang Elegan</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Material Berkualitas</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemasangan Profesional</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Finishing & Perawatan</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Card Item -->
     </section><!-- /Constructions Section -->
 
     <!-- Services Section -->
@@ -227,6 +311,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Mulai Proyek Anda Sekarang</h2>
+        <br>
         <p>6 Langkah Mudah untuk Memulai Pengerjaan Kebutuhan Anda</p>
       </div><!-- End Section Title -->
 
@@ -306,161 +391,107 @@
     <section id="projects" class="projects section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Project Kami</h2>
-        <p></p>
+        <br>
+        <p>Kami telah menyelesaikan berbagai proyek berkualitas tinggi, termasuk pembangunan rumah, desain interior, konstruksi bangunan komersial, pembuatan gazebo kayu dan beton, serta pemasangan parquet dengan material berkualitas. Setiap proyek dirancang dan dikerjakan dengan standar terbaik untuk memastikan hasil yang memuaskan dan tahan lama.</p>
       </div>
       <div class="container">
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-remodeling">Remodeling</li>
-            <li data-filter=".filter-construction">Construction</li>
-            <li data-filter=".filter-repairs">Repairs</li>
-            <li data-filter=".filter-design">Design</li>
-          </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/remodeling-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/biangbambo/bambo3.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 1</h4>
+                  <p></p>
+                  <a href="assets/img/biangbambo/bambo3.jpeg" title="Gazebo1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/construction-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/bar.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 2 </h4>
+                  <p></p>
+                  <a href="assets/img/furniture/bar.jpeg" title="Project 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/repairs-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/kamarmandicafe.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/repairs-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 3</h4>
+                  <p></p>
+                  <a href="assets/img/furniture/kamarmandi.jpeg" title="Project 3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/design-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/cafe.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/design-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 4</h4>
+                  <p></p>
+                  <a href="assets/img/projects/furniture/cafe.jpeg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/remodeling-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/parquet.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/remodeling-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 5</h4>
+                  <p></p>
+                  <a href="assets/img/furniture/parquet.jpeg" title="Project 5" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/construction-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/biangbambo/bambo4.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/construction-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 6</h4>
+                  <a href="assets/img/biangbambo/bambo4.jpeg" title="Project 6" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/repairs-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/bar2.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/repairs-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 9</h4>
+                  <p></p>
+                  <a href="assets/img/furniture/bar2.jpeg" title="Project 9" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/design-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/kamar.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/design-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 7</h4>
+                  <a href="assets/img/furniture/kamar.jpeg" title="Project 7" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/biangbambo/bambo11.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/remodeling-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/remodeling-3.jpg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/construction-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/repairs-3.jpg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/repairs-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/projects/design-3.jpg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/projects/design-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Project 8</h4>
+                  <a href="assets/img/biangbambo/bambo11.jpeg" title="Project 8" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -479,6 +510,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Cerita Jujur Dari Client Tukang Banten</h2>
+        <br>
         <p>Klien kami di Tukang Banten sering berbagi pengalaman positif tentang hasil kerja kami, mulai dari ketepatan desain hingga kualitas pengerjaan.</p>
       </div><!-- End Section Title -->
 
@@ -613,6 +645,7 @@
 <!-- Layanan kami section -->
 <div class="container section-title" data-aos="fade-up">
         <h2>Hubungi Kami</h2>
+        <br>
         <p>Kami siap membantu Anda dengan segala kebutuhan renovasi dan pembangunan rumah. Jangan ragu untuk menghubungi kami!</p>
       </div><!-- End Section Title -->
       <!-- Contact Section -->
@@ -631,12 +664,15 @@
     </div><!-- End Info Item -->
 
     <div class="col-lg-3 col-md-6">
-      <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-        <i class="bi bi-telephone"></i>
-        <h3>Hubungi Kami</h3>
-        <p>081318758831</p>
-      </div>
-    </div><!-- End Info Item -->
+  <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+    <a href="https://wa.me/6281292948453" target="_blank" class="info-link">
+      <i class="bi bi-telephone" style="margin-left: 20px; font-size: 24px;"></i>
+      <h3>Hubungi Kami</h3>
+      <p>0812-9294-8453</p>
+    </a>
+  </div>
+</div>
+
 
     <div class="col-lg-3 col-md-6">
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
@@ -650,7 +686,7 @@
 
   <div class="row gy-4 mt-1">
     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.354887429953!2d106.25091927593708!3d-6.348073193641771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4210cd43fe4189%3A0x4aa6245cde7a84d4!2sJl.%20Kh%20Atim%2C%20Kec.%20Rangkasbitung%2C%20Kabupaten%20Lebak%2C%20Banten!5e0!3m2!1sid!2sid!4v1730389688031!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3975577621322!2d106.2597275!3d-6.3425288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211b6429ba411%3A0xf618ecda7031e570!2sPERUMAHAN%20ROYAL%20SOETA!5e0!3m2!1sid!2sid!4v1736418545992!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div><!-- End Google Maps -->
 
     <div class="col-lg-6">
@@ -700,13 +736,13 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="#" class="logo d-flex align-items-center">
           <span class="sitename">Tukang<span class="highlight">Banten.</span></span>
           </a>
           <div class="footer-contact pt-3">
-            <p>Jl Pasir Ona</p>
-            <p>Rangkasbitung Lebak Banten</p>
-            <p class="mt-3"><strong>Telepon:</strong> <span>081318758831</span></p>
+            <p>PERUMAHAN ROYAL SOETA</p>
+            <p>Cijoro Pasir, Kec. Rangkasbitung, Kabupaten Lebak, Banten 42316</p>
+            <p class="mt-3"><strong>Telepon:</strong> <span>0812-9294-8453</span></p>
             <p><strong>Email:</strong> <span>TukangBanten@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
@@ -716,9 +752,6 @@
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-
-
-
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
@@ -747,6 +780,7 @@
   <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
   <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
   <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 
 
   <!-- Main JS File -->

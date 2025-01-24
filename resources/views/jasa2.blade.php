@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Jasa Desain Bar dan Kafe Tukangbanten</title>
+  <title>Jasa Desain Gambar dan Perencanaan Tukangbanten</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -49,9 +49,10 @@
 
         <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
            <ul>
-            <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
-            <li><a href="{{ url('/jasa2') }}">Jasa Desain Bar dan Kafe</a></li>
-            <li><a href="{{ url('/jasa3') }}">Jasa Pemasangan Parquet</a></li>
+           <li><a href="{{ url('/jasa1') }}">Jasa Tukang Bangun Civil</a></li>
+            <li><a href="{{ url('/jasa2') }}">Jasa Tukang Desain Gambar<br>Dan Perencanaan</a></li>
+            <li><a href="{{ url('/jasa3') }}">Jasa Tukang Parquet</a></li>
+            <li><a href="{{ url('/jasa4') }}">Jasa Tukang Gajebo</a></li>
             </ul>
           </li>
         </ul>
@@ -64,13 +65,13 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/furniture/barbg.jpeg);">
+    <div class="page-title dark-background" style="background-image: url(assets/img/erd1.jpg);">
       <div class="container position-relative">
       <h1 class="sitename">Tukang<span class="highlight">Banten.</span></h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="jasa1">JADIMITRA</a></li>
-            <li class="current">BAR DAN KAFE</li>
+            <li class="current">Desain Gambar dan perencanaan</li>
           </ol>
         </nav>
       </div>
@@ -81,19 +82,19 @@
   <div class="container">
     <div class="row position-relative">
       <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/furniture/bar.jpeg" alt="Gambar Jasa Renovasi Rumah">
+        <img src="assets/img/furniture/bar.jpeg" alt="Gambar Jasa Desain dan Perencanaan">
       </div>
       <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-        <h2 class="inner-title">KENAPA HARUS PAKAI JASA KAMI ?</h2>
+        <h2 class="inner-title">KENAPA MEMILIH JASA DESAIN DAN PERENCANAAN KAMI?</h2>
         <div class="our-story">
           <h4></h4>
-          <h3>BAR DAN KAFE</h3>
-          <p>Kami menyediakan layanan desain dan pembangunan bar dan kafe yang menarik dan fungsional, menciptakan ruang yang tidak hanya nyaman tetapi juga menawan. Tim ahli kami bekerja sama dengan Anda untuk mengembangkan konsep yang sesuai dengan identitas merek dan target pasar Anda.</p>
+          <h3>DESAIN GAMBAR DAN PERENCANAAN</h3>
+          <p>Kami menawarkan layanan desain gambar dan perencanaan yang inovatif dan terstruktur untuk berbagai jenis proyek, mulai dari hunian hingga komersial. Dengan tim yang berpengalaman, kami memastikan setiap detail dirancang dengan cermat untuk menciptakan hasil yang optimal, estetis, dan sesuai kebutuhan Anda.</p>
           <ul>
-            <li><i class="bi bi-check-circle"></i> <span>"Desain Kreatif dan Estetis"</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Fungsionalitas dan Kenyamanan"</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Material Berkualitas"</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Pelayanan profesional"</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Desain Inovatif dan Modern"</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Pendekatan yang Terstruktur"</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Mengutamakan Efisiensi dan Keakuratan"</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Tim Profesional dan Berpengalaman"</span></li>
           </ul>
           <div class="watch-video d-flex align-items-center position-relative">
             <i class="bi bi-play-circle"></i>
@@ -104,6 +105,7 @@
     </div>
   </div>
 </section>
+
 <!-- /About Section -->
 <section id="alt-services" class="alt-services section">
   <div class="container">
@@ -131,42 +133,44 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <!-- Text and Icon Boxes -->
-      <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-    <h3>Desain Bar dan Kafe Impian Anda</h3>
-    <p>Kami menawarkan berbagai konsep desain untuk menciptakan suasana bar dan kafe yang menarik dan fungsional sesuai dengan visi bisnis Anda. Dari bar yang menyenangkan dengan pencahayaan yang tepat hingga area kafe yang memberikan kenyamanan optimal bagi pengunjung. Kami juga menyediakan solusi desain interior yang praktis dengan pilihan furnitur yang sesuai dengan kebutuhan Anda, serta elemen dekoratif yang mempercantik ruang. Setiap aspek desain kami dirancang untuk serasi dengan tema bar atau kafe Anda, menghadirkan keindahan sekaligus pengalaman menyenangkan bagi setiap pelanggan.</p>
+     <!-- Text and Icon Boxes -->
+<div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+    <h3>Desain Gambar dan Perencanaan Konstruksi Anda</h3>
+    <p>Kami menyediakan layanan desain gambar dan perencanaan proyek konstruksi untuk menciptakan bangunan yang fungsional dan estetis. Dari desain arsitektur hingga perencanaan proyek yang rinci, kami membantu Anda mewujudkan visi konstruksi Anda dengan memperhatikan detail, anggaran, dan efisiensi. Dengan pendekatan yang menyeluruh, kami mendukung setiap langkah dalam mewujudkan proyek konstruksi yang sukses.</p>
     
     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-    <i class="fas fa-glass-cheers flex-shrink-0"></i> <!-- Ikon Bar -->
-    <div>
-        <h4><a href="" class="stretched-link">Bar</a></h4>
-        <p>Desain yang ramah dan mengundang, dilengkapi dengan meja bar yang stylish, kursi yang nyaman, dan pencahayaan yang menciptakan suasana hangat dan akrab.</p>
+        <i class="fas fa-building flex-shrink-0"></i> <!-- Ikon Desain Arsitektur -->
+        <div>
+            <h4><a href="" class="stretched-link">Desain Arsitektur</a></h4>
+            <p>Perancangan bangunan yang inovatif dan efisien, menggabungkan estetika dengan fungsionalitas untuk menciptakan ruang yang nyaman dan sesuai dengan kebutuhan klien.</p>
+        </div>
+    </div>
+
+    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+        <i class="fas fa-hard-hat flex-shrink-0"></i> <!-- Ikon Perencanaan Konstruksi -->
+        <div>
+            <h4><a href="" class="stretched-link">Perencanaan Konstruksi</a></h4>
+            <p>Perencanaan proyek konstruksi yang detail, termasuk manajemen sumber daya, jadwal, anggaran, dan pengawasan kualitas untuk memastikan proyek selesai tepat waktu dan sesuai spesifikasi.</p>
+        </div>
+    </div>
+
+    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+        <i class="fas fa-ruler-combined flex-shrink-0"></i> <!-- Ikon Pengukuran dan Perencanaan -->
+        <div>
+            <h4><a href="" class="stretched-link">Pengukuran dan Perencanaan Struktur</a></h4>
+            <p>Melakukan pengukuran akurat dan perencanaan struktur bangunan, memastikan kekokohan dan keamanan bangunan dengan mempertimbangkan aspek teknis dan kebutuhan klien.</p>
+        </div>
+    </div>
+
+    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+        <i class="fas fa-cogs flex-shrink-0"></i> <!-- Ikon Manajemen Proyek Konstruksi -->
+        <div>
+            <h4><a href="" class="stretched-link">Manajemen Proyek Konstruksi</a></h4>
+            <p>Mengelola setiap tahap proyek konstruksi, mulai dari perencanaan hingga penyelesaian, untuk memastikan semua proses berjalan lancar, sesuai anggaran, dan dalam waktu yang ditentukan.</p>
+        </div>
     </div>
 </div>
 
-<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-    <i class="fas fa-coffee flex-shrink-0"></i> <!-- Ikon Kafe -->
-    <div>
-        <h4><a href="" class="stretched-link">Kafe</a></h4>
-        <p>Ruang kafe yang nyaman dan estetis, dengan meja dan kursi yang dirancang untuk memaksimalkan interaksi sosial dan memberikan kenyamanan saat bersantai.</p>
-    </div>
-</div>
-
-<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-    <i class="fas fa-seedling flex-shrink-0"></i> <!-- Ikon Area Luar Ruangan -->
-    <div>
-        <h4><a href="" class="stretched-link">Area Luar Ruangan</a></h4>
-        <p>Desain teras atau area luar yang menyegarkan, dengan furnitur luar ruangan yang stylish dan elemen hijau yang menambah kesan natural.</p>
-    </div>
-</div>
-
-<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-    <i class="fas fa-paint-brush flex-shrink-0"></i> <!-- Ikon Dekorasi Interior -->
-    <div>
-        <h4><a href="" class="stretched-link">Dekorasi Interior</a></h4>
-        <p>Pilihan dekorasi yang unik dan menarik, mulai dari seni dinding hingga aksesori yang memperkuat tema bar atau kafe Anda, menciptakan pengalaman visual yang tak terlupakan bagi pengunjung.</p>
-    </div>
-</div>
 
 </div>
 
@@ -176,12 +180,6 @@
         <p> Kami berkomitmen untuk mewujudkan desain yang sesuai dengan kebutuhan dan selera klien, mulai dari konsep modern minimalis hingga klasik yang elegan.</p>
       </div>
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-<ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-  <li data-filter="*" class="filter-active">All</li>
-  <li data-filter=".filter-remodeling">Interior</li>
-  <li data-filter=".filter-construction">Eksterior</li>
-</ul><!-- End Portfolio Filters -->
 
       <div class="container">
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -207,10 +205,10 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/bar2.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/kamarmandicafe.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 3</h4>
-                  <a href="assets/img/furniture/bar2.jpeg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/kamarmandicafe.jpeg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -238,10 +236,10 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/kamarmandicafe.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/bar2.jpeg') }}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Example 6</h4>
-                  <a href="assets/img/furniture/kamarmandicafe.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/furniture/bar2.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -289,101 +287,99 @@
           </script>
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Ratnasari</h3>
-                  <h4>ibu &amp; Rumahtangga</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"Saya sangat puas dengan hasil renovasi rumah dari TUKANG BANTEN. Timnya sangat profesional, ramah, dan selalu menjaga kebersihan selama proses pengerjaan. Hasil akhir melebihi ekspektasi saya, dan rumah terasa seperti baru lagi! Terima kasih, TUKANG BANTEN."</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Herianto</h3>
-                  <h4>Pengusaha</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"Pembangunan rumah baru saya berjalan dengan lancar berkat TUKANG BANTEN. Mereka tidak hanya bekerja cepat, tetapi juga sangat detail dalam setiap tahap konstruksi. Komunikasi mereka juga sangat baik, sehingga saya selalu mendapat update mengenai perkembangan proyek. Sungguh pengalaman yang menyenangkan!"</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Amelia Kusuma</h3>
-                  <h4>Pengusaha</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"Awalnya saya ragu menggunakan jasa renovasi, tapi TUKANG BANTEN benar-benar membuktikan profesionalitasnya. Mereka membantu saya merencanakan desain yang modern dan fungsional. Hasil renovasinya sungguh rapi dan sesuai dengan anggaran yang telah kami sepakati. Highly recommended!"</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Aditya</h3>
-                  <h4>Freelancer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"Sangat merekomendasikan TUKANG BANTEN untuk proyek bangun rumah. Mereka mengerjakan semua dengan cermat, dan hasilnya benar-benar kokoh serta estetis. Timnya penuh perhatian dan detail terhadap setiap keinginan saya, dari desain awal hingga finishing akhir. Terima kasih atas kerja kerasnya!"</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Rina</h3>
-                  <h4>Ibu rumah tangga</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"TUKANG BANTEN memberikan layanan renovasi terbaik yang pernah saya dapatkan. Prosesnya cepat dan tanpa hambatan, dan mereka sangat responsif terhadap semua pertanyaan saya. Hasil akhir renovasinya membuat rumah saya jauh lebih nyaman dan menarik. Saya pasti akan menghubungi mereka lagi untuk proyek lainnya!"</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-           </div>
-          <div class="swiper-pagination"></div>
-        </div>
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+      <h3>Ratnasari</h3>
+      <h4>Ibu Rumah Tangga</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
       </div>
-    </section>
-    <!-- /Testimonials Section -->
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Desain yang dibuat oleh TUKANG BANTEN sangat luar biasa. Mereka mampu menerjemahkan ide-ide saya ke dalam gambar yang detail dan jelas. Dengan perencanaan yang matang, proyek renovasi rumah saya berjalan dengan lancar tanpa hambatan. Sangat puas dengan hasilnya!"</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
+
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
+      <h3>Herianto</h3>
+      <h4>Pengusaha</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"TUKANG BANTEN memberikan layanan perencanaan yang sangat profesional. Desain gambar yang mereka buat benar-benar sesuai dengan visi saya untuk rumah baru saya. Perencanaan mereka sangat terstruktur sehingga proses pembangunan berjalan efisien dan hasilnya sempurna."</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
+
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+      <h3>Amelia Kusuma</h3>
+      <h4>Pengusaha</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Desain modern dan fungsional dari TUKANG BANTEN benar-benar memudahkan saya dalam mewujudkan renovasi yang sesuai dengan kebutuhan. Tim mereka sangat ahli dan memberikan solusi inovatif untuk setiap detail. Hasilnya luar biasa dan tepat waktu."</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
+
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
+      <h3>Aditya</h3>
+      <h4>Freelancer</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Dengan bantuan desain dan perencanaan dari TUKANG BANTEN, saya berhasil membangun rumah yang tidak hanya kokoh tetapi juga estetis. Gambar kerja mereka sangat detail, dan proses pengerjaan menjadi lebih terarah. Saya sangat merekomendasikan mereka!"</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
+
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+      <h3>Rina</h3>
+      <h4>Ibu Rumah Tangga</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Perencanaan yang dibuat oleh TUKANG BANTEN sangat membantu saya dalam menentukan desain terbaik untuk renovasi rumah. Hasil akhirnya sangat memuaskan, dan prosesnya berjalan lancar tanpa kendala berarti. Sangat berterima kasih atas kerja keras tim mereka!"</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
+
+</div>
+<div class="swiper-pagination"></div>
+
 
      <!-- Layanan kami section -->
      <div class="container section-title" data-aos="fade-up">
@@ -405,13 +401,16 @@
       </div>
     </div><!-- End Info Item -->
 
+    
     <div class="col-lg-3 col-md-6">
-      <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-        <i class="bi bi-telephone"></i>
-        <h3>Hubungi Kami</h3>
-        <p>081318758831</p>
-      </div>
-    </div><!-- End Info Item -->
+  <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+    <a href="https://wa.me/6281292948453" target="_blank" class="info-link">
+      <i class="bi bi-telephone" style="margin-left: 20px; font-size: 24px;"></i>
+      <h3>Hubungi Kami</h3>
+      <p>0812-9294-8453</p>
+    </a>
+  </div>
+</div>
 
     <div class="col-lg-3 col-md-6">
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
@@ -425,7 +424,7 @@
 
   <div class="row gy-4 mt-1">
     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.354887429953!2d106.25091927593708!3d-6.348073193641771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4210cd43fe4189%3A0x4aa6245cde7a84d4!2sJl.%20Kh%20Atim%2C%20Kec.%20Rangkasbitung%2C%20Kabupaten%20Lebak%2C%20Banten!5e0!3m2!1sid!2sid!4v1730389688031!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3975577621322!2d106.2597275!3d-6.3425288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211b6429ba411%3A0xf618ecda7031e570!2sPERUMAHAN%20ROYAL%20SOETA!5e0!3m2!1sid!2sid!4v1736418545992!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div><!-- End Google Maps -->
 
     <div class="col-lg-6">
@@ -478,13 +477,13 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="#" class="logo d-flex align-items-center">
           <span class="sitename">Tukang<span class="highlight">Banten.</span></span>
           </a>
           <div class="footer-contact pt-3">
-            <p>Jl Pasir Ona</p>
-            <p>Rangkasbitung Lebak Banten</p>
-            <p class="mt-3"><strong>Telepon:</strong> <span>081318758831</span></p>
+            <p>PERUMAHAN ROYAL SOETA</p>
+            <p>Cijoro Pasir, Kec. Rangkasbitung, Kabupaten Lebak, Banten 42316</p>
+            <p class="mt-3"><strong>Telepon:</strong> <span>0812-9294-8453</span></p>
             <p><strong>Email:</strong> <span>TukangBanten@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
@@ -494,7 +493,6 @@
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
       <div class="credits">

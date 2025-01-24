@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Jasa Bangun Rumah Tukangbanten</title>
+  <title>Jasa Bangun Civil Tukangbanten</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -49,9 +49,10 @@
 
         <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-            <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
-            <li><a href="{{ url('/jasa2') }}">Jasa Desain Bar dan Kafe</a></li>
-            <li><a href="{{ url('/jasa3') }}">Jasa Pemasangan Parquet</a></li>
+            <li><a href="{{ url('/jasa1') }}">Jasa Tukang Bangun Civil</a></li>
+            <li><a href="{{ url('/jasa2') }}">Jasa Tukang Desain Gambar<br>Dan Perencanaan</a></li>
+            <li><a href="{{ url('/jasa3') }}">Jasa Tukang Parquet</a></li>
+            <li><a href="{{ url('/jasa4') }}">Jasa Tukang Gajebo</a></li>
             </ul>
           </li>
         </ul>
@@ -64,13 +65,13 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+    <div class="page-title dark-background" style="background-image: url(assets/img/erd1.jpg);">
       <div class="container position-relative">
       <h1 class="sitename">Tukang<span class="highlight">Banten.</span></h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="jasa1">JADIMITRA</a></li>
-            <li class="current">JASA BANGUN RUMAH</li>
+            <li class="current">JASA BANGUN CIVIL</li>
           </ol>
         </nav>
       </div>
@@ -87,7 +88,7 @@
         <h2 class="inner-title">KENAPA HARUS PAKAI JASA KAMI ?</h2>
         <div class="our-story">
           <h4></h4>
-          <h3>PERJALANAN KAMI</h3>
+          <h3>JASA BANGUN CIVIL</h3>
           <p>Kami telah menjadi pilihan utama dalam jasa renovasi rumah. Dengan pengalaman dan keahlian yang mumpuni, kami memberikan sentuhan baru pada setiap sudut rumah, menghadirkan hasil yang melebihi harapan Anda. Kami memahami bahwa setiap proyek renovasi adalah investasi besar bagi Anda, sehingga kami berkomitmen untuk menyediakan layanan yang jujur, profesional, dan berkualitas tinggi. Kami melayani berbagai kebutuhan renovasi, mulai dari perbaikan kecil hingga renovasi total. Setiap pekerjaan dilakukan dengan penuh perhatian terhadap detail, kualitas material, dan ketepatan waktu, memastikan rumah Anda menjadi tempat yang nyaman dan indah untuk ditinggali.</p>
           <ul>
             <li><i class="bi bi-check-circle"></i> <span>"Kami bekerja dengan dedikasi penuh untuk menghadirkan hasil renovasi yang berkualitas, tepat waktu, dan sesuai keinginan Anda."</span></li>
@@ -111,13 +112,16 @@
       <div id="carouselExample" class="carousel slide col-lg-6" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="100">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/furniture/bar.jpeg" class="d-block w-100" alt="Desain Interior 1">
+            <img src="assets/img/imgcivil1.jpeg" class="d-block w-100" alt="Desain Interior 1">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/furniture/kamarmandicafe.jpeg" class="d-block w-100" alt="Desain Interior 2">
+            <img src="assets/img/interior4.jpeg" class="d-block w-100" alt="Desain Interior 2">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/furniture/ruangpijat.jpeg" class="d-block w-100" alt="Desain Interior 3">
+            <img src="assets/img/imgcivil4.jpeg" class="d-block w-100" alt="Desain Interior 3">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/interior5.jpeg" class="d-block w-100" alt="Desain Interior 3">
           </div>
 
         </div>
@@ -130,40 +134,40 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <!-- Text and Icon Boxes -->
-      <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-    <h3>Desain Interior Rumah Impian Anda</h3>
-    <p>Kami menawarkan berbagai konsep desain interior untuk menciptakan suasana rumah yang hangat dan fungsional sesuai gaya hidup Anda. Dari ruang tamu yang nyaman dengan pencahayaan yang tepat hingga kamar tidur yang memberikan relaksasi optimal. Kami juga menyediakan solusi penyimpanan praktis melalui desain kabinet yang sesuai dengan kebutuhan Anda serta mempercantik ruang makan dengan meja dan kursi yang elegan. Setiap elemen interior kami dirancang agar serasi dengan tema rumah dan menghadirkan keindahan sekaligus kenyamanan di setiap sudutnya.</p>
+     <!-- Text and Icon Boxes -->
+<div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+    <h3>Mewujudkan Rumah Impian dengan Konstruksi Kokoh dan Interior Elegan</h3>
+    <p>Kami menawarkan layanan terintegrasi yang mencakup pembangunan struktur bangunan sipil yang kokoh sekaligus desain interior yang estetis. Dengan pendekatan menyeluruh, kami memastikan setiap aspek rumah Anda—dari fondasi hingga detail interior—dirancang untuk menciptakan hunian yang aman, nyaman, dan berkelas. Tim kami menggabungkan teknik konstruksi modern dengan konsep desain yang inovatif, memberikan hasil terbaik untuk setiap proyek Anda.</p>
     
     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-        <i class="fas fa-couch flex-shrink-0"></i> <!-- Ganti dengan ikon baru -->
+        <i class="fas fa-hard-hat flex-shrink-0"></i>
         <div>
-            <h4><a href="" class="stretched-link">Ruang Tamu</a></h4>
-            <p>Desain yang menyambut dan nyaman dengan sofa, meja, dan pencahayaan estetis.</p>
+            <h4><a href="" class="stretched-link">Konstruksi Kokoh</a></h4>
+            <p>Fondasi, struktur beton, dan elemen bangunan lainnya dikerjakan dengan standar teknik sipil terbaik.</p>
         </div>
     </div>
     
     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-        <i class="fas fa-bath flex-shrink-0"></i> <!-- Ganti dengan ikon baru -->
+        <i class="fas fa-ruler-combined flex-shrink-0"></i>
         <div>
-            <h4><a href="" class="stretched-link">Kamar Mandi</a></h4>
-            <p>Desain elegan dengan shower, wastafel, dan perlengkapan lain yang tahan lama.</p>
+            <h4><a href="" class="stretched-link">Desain Interior Fungsional</a></h4>
+            <p>Interior dirancang agar serasi dengan struktur bangunan, mengutamakan keindahan dan efisiensi ruang.</p>
         </div>
     </div>
     
     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-        <i class="fas fa-utensils flex-shrink-0"></i> <!-- Ganti dengan ikon baru -->
+        <i class="fas fa-tools flex-shrink-0"></i>
         <div>
-            <h4><a href="" class="stretched-link">Dapur Modern</a></h4>
-            <p>Kabinet, countertop, dan peralatan dapur yang fungsional untuk memaksimalkan ruang.</p>
+            <h4><a href="" class="stretched-link">Material Berkualitas</a></h4>
+            <p>Penggunaan material terbaik baik untuk konstruksi maupun elemen interior, menjamin hasil yang tahan lama.</p>
         </div>
     </div>
     
     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-        <i class="fas fa-chair flex-shrink-0"></i> <!-- Ganti dengan ikon baru -->
+        <i class="fas fa-house-user flex-shrink-0"></i>
         <div>
-            <h4><a href="" class="stretched-link">Ruang Makan</a></h4>
-            <p>Meja dan kursi bergaya yang menghadirkan keindahan dan kenyamanan saat makan bersama.</p>
+            <h4><a href="" class="stretched-link">Solusi Terintegrasi</a></h4>
+            <p>Mulai dari pembangunan struktur hingga penataan interior, layanan kami mencakup semua kebutuhan Anda.</p>
         </div>
     </div>
 </div>
@@ -176,12 +180,6 @@
         <p> Kami berkomitmen untuk mewujudkan desain yang sesuai dengan kebutuhan dan selera klien, mulai dari konsep modern minimalis hingga klasik yang elegan.</p>
       </div>
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-<ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-  <li data-filter="*" class="filter-active">All</li>
-  <li data-filter=".filter-remodeling">Interior</li>
-  <li data-filter=".filter-construction">Eksterior</li>
-</ul><!-- End Portfolio Filters -->
 
       <div class="container">
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -245,69 +243,6 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/kamarmandicafe.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/kamarmandicafe.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/bar.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/bar.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/cafe.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/cafe.jpeg" title="Cafe Tip tap toe Jogjakarta (interior)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/kamar.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/kamar.jpeg" title="Villa Bianti Bali" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/ruangpijat.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/ruangpijat.jpeg" title="Natashia cilegon" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 6</h4>
-                  <a href="assets/img/furniture/parquet.jpeg" title="Parquet Villa Bianti Bali" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-
-
           </div><!-- End Portfolio Container -->
         </div>
       </div>
@@ -315,13 +250,11 @@
    
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Cerita Jujur Dari Client Tukang Banten</h2>
         <p>Klien kami di Tukang Banten sering berbagi pengalaman positif tentang hasil kerja kami, mulai dari ketepatan desain hingga kualitas pengerjaan.</p>
       </div><!-- End Section Title -->
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper init-swiper">
@@ -468,12 +401,14 @@
     </div><!-- End Info Item -->
 
     <div class="col-lg-3 col-md-6">
-      <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-        <i class="bi bi-telephone"></i>
-        <h3>Hubungi Kami</h3>
-        <p>081318758831</p>
-      </div>
-    </div><!-- End Info Item -->
+  <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+    <a href="https://wa.me/6281292948453" target="_blank" class="info-link">
+      <i class="bi bi-telephone" style="margin-left: 20px; font-size: 24px;"></i>
+      <h3>Hubungi Kami</h3>
+      <p>0812-9294-8453</p>
+    </a>
+  </div>
+</div>
 
     <div class="col-lg-3 col-md-6">
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
@@ -487,7 +422,7 @@
 
   <div class="row gy-4 mt-1">
     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.354887429953!2d106.25091927593708!3d-6.348073193641771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4210cd43fe4189%3A0x4aa6245cde7a84d4!2sJl.%20Kh%20Atim%2C%20Kec.%20Rangkasbitung%2C%20Kabupaten%20Lebak%2C%20Banten!5e0!3m2!1sid!2sid!4v1730389688031!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3975577621322!2d106.2597275!3d-6.3425288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211b6429ba411%3A0xf618ecda7031e570!2sPERUMAHAN%20ROYAL%20SOETA!5e0!3m2!1sid!2sid!4v1736418545992!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div><!-- End Google Maps -->
 
     <div class="col-lg-6">
@@ -540,13 +475,13 @@
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="#" class="logo d-flex align-items-center">
           <span class="sitename">Tukang<span class="highlight">Banten.</span></span>
           </a>
           <div class="footer-contact pt-3">
-            <p>Jl Pasir Ona</p>
-            <p>Rangkasbitung Lebak Banten</p>
-            <p class="mt-3"><strong>Telepon:</strong> <span>081318758831</span></p>
+            <p>PERUMAHAN ROYAL SOETA</p>
+            <p>Cijoro Pasir, Kec. Rangkasbitung, Kabupaten Lebak, Banten 42316</p>
+            <p class="mt-3"><strong>Telepon:</strong> <span>0812-9294-8453</span></p>
             <p><strong>Email:</strong> <span>TukangBanten@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
@@ -556,7 +491,6 @@
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
       <div class="credits">

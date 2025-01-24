@@ -49,9 +49,10 @@
 
         <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
         <ul>
-            <li><a href="{{ url('/jasa1') }}">Jasa Bangun Rumah</a></li>
-            <li><a href="{{ url('/jasa2') }}">Jasa Desain Bar dan Kafe</a></li>
-            <li><a href="{{ url('/jasa3') }}">Jasa Pemasangan Parquet</a></li>
+            <li><a href="{{ url('/jasa1') }}">Jasa Tukang Bangun Civil</a></li>
+            <li><a href="{{ url('/jasa2') }}">Jasa Tukang Desain Gambar<br>Dan Perencanaan</a></li>
+            <li><a href="{{ url('/jasa3') }}">Jasa Tukang Parquet</a></li>
+            <li><a href="{{ url('/jasa4') }}">Jasa Tukang Gajebo</a></li>
             </ul>
           </li>
         </ul>
@@ -285,95 +286,95 @@
           </script>
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Ratnasari</h3>
-                  <h4>ibu &amp; Rumahtangga</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"Saya sangat puas dengan hasil renovasi rumah dari TUKANG BANTEN. Timnya sangat profesional, ramah, dan selalu menjaga kebersihan selama proses pengerjaan. Hasil akhir melebihi ekspektasi saya, dan rumah terasa seperti baru lagi! Terima kasih, TUKANG BANTEN."</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
+          <div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+      <h3>Ratnasari</h3>
+      <h4>Ibu Rumah Tangga</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Lantai vinyl dari TUKANG BANTEN membuat rumah saya terlihat lebih elegan dan modern. Proses pemasangannya sangat cepat, dan hasil akhirnya benar-benar memuaskan. Anak-anak saya juga merasa nyaman bermain di atas lantai yang baru. Terima kasih banyak!"</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Herianto</h3>
-                  <h4>Pengusaha</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"Pembangunan rumah baru saya berjalan dengan lancar berkat TUKANG BANTEN. Mereka tidak hanya bekerja cepat, tetapi juga sangat detail dalam setiap tahap konstruksi. Komunikasi mereka juga sangat baik, sehingga saya selalu mendapat update mengenai perkembangan proyek. Sungguh pengalaman yang menyenangkan!"</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
+      <h3>Herianto</h3>
+      <h4>Pengusaha</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Pemasangan parquet oleh TUKANG BANTEN di kantor saya membuat suasana lebih hangat dan profesional. Mereka sangat detail dalam pengerjaannya, dan hasilnya luar biasa. Saya sangat puas dengan pelayanan dan kualitasnya."</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Amelia Kusuma</h3>
-                  <h4>Pengusaha</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"Awalnya saya ragu menggunakan jasa renovasi, tapi TUKANG BANTEN benar-benar membuktikan profesionalitasnya. Mereka membantu saya merencanakan desain yang modern dan fungsional. Hasil renovasinya sungguh rapi dan sesuai dengan anggaran yang telah kami sepakati. Highly recommended!"</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+      <h3>Amelia Kusuma</h3>
+      <h4>Desainer Interior</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Sebagai desainer interior, saya sering merekomendasikan lantai vinyl dan parquet dari TUKANG BANTEN. Produk mereka tidak hanya berkualitas tinggi, tetapi juga tahan lama dan mudah dirawat. Klien saya selalu puas dengan hasilnya."</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Aditya</h3>
-                  <h4>Freelancer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"Sangat merekomendasikan TUKANG BANTEN untuk proyek bangun rumah. Mereka mengerjakan semua dengan cermat, dan hasilnya benar-benar kokoh serta estetis. Timnya penuh perhatian dan detail terhadap setiap keinginan saya, dari desain awal hingga finishing akhir. Terima kasih atas kerja kerasnya!"</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
+      <h3>Aditya</h3>
+      <h4>Freelancer</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Saya memutuskan untuk mengganti lantai rumah saya dengan parquet dari TUKANG BANTEN, dan hasilnya sangat memuaskan. Proses pemasangannya rapi, dan timnya sangat profesional. Rumah saya kini terasa lebih nyaman dan berkelas."</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
-                  <h3>Rina</h3>
-                  <h4>Ibu rumah tangga</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span>"TUKANG BANTEN memberikan layanan renovasi terbaik yang pernah saya dapatkan. Prosesnya cepat dan tanpa hambatan, dan mereka sangat responsif terhadap semua pertanyaan saya. Hasil akhir renovasinya membuat rumah saya jauh lebih nyaman dan menarik. Saya pasti akan menghubungi mereka lagi untuk proyek lainnya!"</span>
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+      <h3>Rina</h3>
+      <h4>Ibu Rumah Tangga</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div>
+      <p>
+        <i class="bi bi-quote quote-icon-left"></i>
+        <span>"Vinyl dari TUKANG BANTEN benar-benar mengubah tampilan rumah saya. Mudah dibersihkan dan tahan lama, sangat cocok untuk keluarga dengan anak kecil seperti saya. Layanan mereka juga sangat responsif dan profesional."</span>
+        <i class="bi bi-quote quote-icon-right"></i>
+      </p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
            </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -401,13 +402,16 @@
       </div>
     </div><!-- End Info Item -->
 
+    
     <div class="col-lg-3 col-md-6">
-      <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-        <i class="bi bi-telephone"></i>
-        <h3>Hubungi Kami</h3>
-        <p>081318758831</p>
-      </div>
-    </div><!-- End Info Item -->
+  <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+    <a href="https://wa.me/6281292948453" target="_blank" class="info-link">
+      <i class="bi bi-telephone" style="margin-left: 20px; font-size: 24px;"></i>
+      <h3>Hubungi Kami</h3>
+      <p>0812-9294-8453</p>
+    </a>
+  </div>
+</div>
 
     <div class="col-lg-3 col-md-6">
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
@@ -421,7 +425,7 @@
 
   <div class="row gy-4 mt-1">
     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.354887429953!2d106.25091927593708!3d-6.348073193641771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4210cd43fe4189%3A0x4aa6245cde7a84d4!2sJl.%20Kh%20Atim%2C%20Kec.%20Rangkasbitung%2C%20Kabupaten%20Lebak%2C%20Banten!5e0!3m2!1sid!2sid!4v1730389688031!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3975577621322!2d106.2597275!3d-6.3425288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211b6429ba411%3A0xf618ecda7031e570!2sPERUMAHAN%20ROYAL%20SOETA!5e0!3m2!1sid!2sid!4v1736418545992!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div><!-- End Google Maps -->
 
     <div class="col-lg-6">
@@ -471,38 +475,37 @@
 
   <footer id="footer" class="footer dark-background">
 
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-          <span class="sitename">Tukang<span class="highlight">Banten.</span></span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>Jl Pasir Ona</p>
-            <p>Rangkasbitung Lebak Banten</p>
-            <p class="mt-3"><strong>Telepon:</strong> <span>081318758831</span></p>
-            <p><strong>Email:</strong> <span>TukangBanten@gmail.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://github.com/SEHANDIKITRIANSYAH12">SehanDikiTriansyah</a>
+<div class="container footer-top">
+  <div class="row gy-4">
+    <div class="col-lg-4 col-md-6 footer-about">
+      <a href="#" class="logo d-flex align-items-center">
+      <span class="sitename">Tukang<span class="highlight">Banten.</span></span>
+      </a>
+      <div class="footer-contact pt-3">
+        <p>PERUMAHAN ROYAL SOETA</p>
+        <p>Cijoro Pasir, Kec. Rangkasbitung, Kabupaten Lebak, Banten 42316</p>
+        <p class="mt-3"><strong>Telepon:</strong> <span>0812-9294-8453</span></p>
+        <p><strong>Email:</strong> <span>TukangBanten@gmail.com</span></p>
+      </div>
+      <div class="social-links d-flex mt-4">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
     </div>
+<div class="container copyright text-center mt-4">
+  <p>© <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you've purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+    Designed by <a href="https://github.com/SEHANDIKITRIANSYAH12">SehanDikiTriansyah</a>
+  </div>
+</div>
 
-  </footer>
+</footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
