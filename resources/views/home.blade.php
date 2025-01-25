@@ -642,92 +642,92 @@
     </section>
     <!-- /Testimonials Section -->
 
-<!-- Layanan kami section -->
-<div class="container section-title" data-aos="fade-up">
-        <h2>Hubungi Kami</h2>
-        <br>
-        <p>Kami siap membantu Anda dengan segala kebutuhan renovasi dan pembangunan rumah. Jangan ragu untuk menghubungi kami!</p>
-      </div><!-- End Section Title -->
-      <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <!-- Hubungi  kami section -->
+    <div class="container section-title" data-aos="fade-up">
+            <h2>Hubungi Kami</h2>
+            <br>
+            <p>Kami siap membantu Anda dengan segala kebutuhan renovasi dan pembangunan rumah. Jangan ragu untuk menghubungi kami!</p>
+          </div><!-- End Section Title -->
+          <!-- Contact Section -->
+        <section id="contact" class="contact section">
 
-<div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-  <div class="row gy-4">
+      <div class="row gy-4">
 
-    <div class="col-lg-6">
-      <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-        <i class="bi bi-geo-alt"></i>
-        <h3>Alamat</h3>
-        <p>Rangkasbitung Lebak Banten</p>
+        <div class="col-lg-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt"></i>
+            <h3>Alamat</h3>
+            <p>Rangkasbitung Lebak Banten</p>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-lg-3 col-md-6">
+      <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+        <a href="https://wa.me/6281292948453" target="_blank" class="info-link">
+          <i class="bi bi-telephone" style="margin-left: 20px; font-size: 24px;"></i>
+          <h3>Hubungi Kami</h3>
+          <p>0812-9294-8453</p>
+        </a>
       </div>
-    </div><!-- End Info Item -->
-
-    <div class="col-lg-3 col-md-6">
-  <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-    <a href="https://wa.me/6281292948453" target="_blank" class="info-link">
-      <i class="bi bi-telephone" style="margin-left: 20px; font-size: 24px;"></i>
-      <h3>Hubungi Kami</h3>
-      <p>0812-9294-8453</p>
-    </a>
-  </div>
-</div>
+    </div>
 
 
-    <div class="col-lg-3 col-md-6">
-      <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-        <i class="bi bi-envelope"></i>
-        <h3>Email Kami</h3>
-        <p>TukangBanten@gmail.com</p>
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-envelope"></i>
+            <h3>Email Kami</h3>
+            <p>TukangBanten@gmail.com</p>
+          </div>
+        </div><!-- End Info Item -->
+
       </div>
-    </div><!-- End Info Item -->
 
-  </div>
+      <div class="row gy-4 mt-1">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3975577621322!2d106.2597275!3d-6.3425288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211b6429ba411%3A0xf618ecda7031e570!2sPERUMAHAN%20ROYAL%20SOETA!5e0!3m2!1sid!2sid!4v1736418545992!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!-- End Google Maps -->
 
-  <div class="row gy-4 mt-1">
-    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3975577621322!2d106.2597275!3d-6.3425288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211b6429ba411%3A0xf618ecda7031e570!2sPERUMAHAN%20ROYAL%20SOETA!5e0!3m2!1sid!2sid!4v1736418545992!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div><!-- End Google Maps -->
+        <div class="col-lg-6">
+        @if(session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
 
-    <div class="col-lg-6">
-    @if(session('success'))
-    <div class="alert alert-success">
-        {{ session('success') }}
+        <form action="{{ route('contact.send') }}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+        @csrf
+        <div class="row gy-4">
+            <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+
+            <div class="col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+    </form>
+        </div><!-- End Contact Form -->
+      </div>
     </div>
-@endif
-
-    <form action="{{ route('contact.send') }}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
-    @csrf
-    <div class="row gy-4">
-        <div class="col-md-6">
-            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-        </div>
-
-        <div class="col-md-6">
-            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-        </div>
-
-        <div class="col-md-12">
-            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-        </div>
-
-        <div class="col-md-12">
-            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-        </div>
-
-        <div class="col-md-12 text-center">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
-
-            <button type="submit">Send Message</button>
-        </div>
-    </div>
-</form>
-    </div><!-- End Contact Form -->
-  </div>
-</div>
-</section><!-- /Contact Section -->
+    </section><!-- /Contact Section -->
     
   </main>
 

@@ -85,7 +85,7 @@
         <img src="assets/img/furniture/bar.jpeg" alt="Gambar Jasa Desain dan Perencanaan">
       </div>
       <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-        <h2 class="inner-title">KENAPA MEMILIH JASA DESAIN DAN PERENCANAAN KAMI?</h2>
+        <h2 class="inner-title">KENAPA MEMILIH JASA DESAIN GAMBAR DAN PERENCANAAN KAMI?</h2>
         <div class="our-story">
           <h4></h4>
           <h3>DESAIN GAMBAR DAN PERENCANAAN</h3>
@@ -176,7 +176,7 @@
 
     <section id="projects" class="projects section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contoh Desain Bar Dan Kafe </h2>
+        <h2>Contoh Desain Gambar Bar Dan Kafe </h2>
         <p> Kami berkomitmen untuk mewujudkan desain yang sesuai dengan kebutuhan dan selera klien, mulai dari konsep modern minimalis hingga klasik yang elegan.</p>
       </div>
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
