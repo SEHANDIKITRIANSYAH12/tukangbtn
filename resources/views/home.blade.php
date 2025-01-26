@@ -4,9 +4,26 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Tukangbanten</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Tukang Banten - Layanan Konstruksi Terpercaya di Banten | Jasa Tukang Profesional</title>
+  <meta name="description" content="Tukang Banten menyediakan layanan konstruksi profesional, renovasi rumah, dan jasa tukang terpercaya di wilayah Banten. ✓ Berpengalaman ✓ Berkualitas ✓ Bergaransi">
+  <meta name="keywords" content="tukang banten, jasa tukang banten, renovasi rumah banten, kontraktor banten, tukang bangunan banten, jasa konstruksi banten">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tukangbanten.com/">
+  <meta property="og:title" content="Tukang Banten - Layanan Konstruksi Terpercaya di Banten">
+  <meta property="og:description" content="Layanan konstruksi profesional dan terpercaya di Banten. Spesialis renovasi rumah, konstruksi bangunan, dan jasa tukang berkualitas.">
+  <meta property="og:image" content="{{ asset('assets/img/logoheader.png') }}">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://tukangbanten.com/">
+  <meta property="twitter:title" content="Tukang Banten - Layanan Konstruksi Terpercaya di Banten">
+  <meta property="twitter:description" content="Layanan konstruksi profesional dan terpercaya di Banten. Spesialis renovasi rumah, konstruksi bangunan, dan jasa tukang berkualitas.">
+  <meta property="twitter:image" content="{{ asset('assets/img/logoheader.png') }}">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://tukangbanten.com/">
   <link rel="icon" href="{{ asset('assets/img/favicon.ico') }}" type="image/x-icon">
 
 
@@ -42,7 +59,7 @@
 
       <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="{{ asset('assets/img/logoheader.png') }}" alt="Logo" class="me-2 logo-header">
+        <img src="{{ asset('assets/img/logoheader.png') }}" alt="Logo Tukang Banten - Jasa Konstruksi Profesional" class="me-2 logo-header">
         <h1 class="sitename">Tukang</h1><span>Banten.</span>
       </a>
       <nav id="navmenu" class="navmenu">
@@ -100,19 +117,19 @@
       <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
          <div class="carousel-item">
-            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-1.jpg') }}" alt="">
+            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-1.jpg') }}" alt="Gambar Hero Carousel 1">
         </div>
         <div class="carousel-item active">
-            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-2.jpg') }}" alt="">
+            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-2.jpg') }}" alt="Gambar Hero Carousel 2">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-3.jpg') }}" alt="">
+            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-3.jpg') }}" alt="Gambar Hero Carousel 3">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-4.jpg') }}" alt="">
+            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-4.jpg') }}" alt="Gambar Hero Carousel 4">
         </div>
         <div class="carousel-item">
-            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-5.jpg') }}" alt="">
+            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-5.jpg') }}" alt="Gambar Hero Carousel 5">
         </div>
 
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -194,7 +211,7 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <div class="card-bg"><img src="{{ asset('assets/img/constructions-4.jpg') }}" alt=""></div>
+                  <div class="card-bg"><img src="{{ asset('assets/img/constructions-4.jpg') }}" alt="Gambar Konstruksi 4"></div>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
@@ -213,7 +230,7 @@
     <div class="row">
       <div class="col-xl-5">
         <div class="card-bg">
-          <img src="{{ asset('assets/img/biangbambo/bambo3.jpeg') }}" alt="">
+          <img src="{{ asset('assets/img/biangbambo/bambo3.jpeg') }}" alt="Gambar Gajebo Bambu">
         </div>
       </div>
       <div class="col-xl-7 d-flex align-items-center">
@@ -244,7 +261,7 @@
     <div class="row">
       <div class="col-xl-5">
         <div class="card-bg">
-          <img src="{{ asset('assets/img/erd.jpg') }}" alt="">
+          <img src="{{ asset('assets/img/erd.jpg') }}" alt="Gambar Desain Gambar dan Perencanaan">
         </div>
       </div>
       <div class="col-xl-7 d-flex align-items-center">
@@ -275,7 +292,7 @@
     <div class="row">
       <div class="col-xl-5">
         <div class="card-bg">
-          <img src="{{ asset('assets/img/furniture/parquet3.png') }}" alt="">
+          <img src="{{ asset('assets/img/furniture/parquet3.png') }}" alt="Gambar Pemasangan Parquet">
         </div>
       </div>
       <div class="col-xl-7 d-flex align-items-center">
@@ -402,7 +419,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/biangbambo/bambo3.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/biangbambo/bambo3.jpeg') }}" class="img-fluid" alt="Gambar Gazebo Bambu">
                 <div class="portfolio-info">
                   <h4>Project 1</h4>
                   <p></p>
@@ -413,7 +430,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/bar.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/bar.jpeg') }}" class="img-fluid" alt="Gambar Bar">
                 <div class="portfolio-info">
                   <h4>Project 2 </h4>
                   <p></p>
@@ -424,7 +441,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/kamarmandicafe.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/kamarmandicafe.jpeg') }}" class="img-fluid" alt="Gambar Kamar Mandi Cafe">
                 <div class="portfolio-info">
                   <h4>Project 3</h4>
                   <p></p>
@@ -435,7 +452,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/cafe.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/cafe.jpeg') }}" class="img-fluid" alt="Gambar Cafe">
                 <div class="portfolio-info">
                   <h4>Project 4</h4>
                   <p></p>
@@ -446,7 +463,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/parquet.jpeg') }}" class="img-fluid" alt="Gambar Parquet">
                 <div class="portfolio-info">
                   <h4>Project 5</h4>
                   <p></p>
@@ -457,7 +474,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/biangbambo/bambo4.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/biangbambo/bambo4.jpeg') }}" class="img-fluid" alt="Gambar Gazebo Bambu 4">
                 <div class="portfolio-info">
                   <h4>Project 6</h4>
                   <a href="assets/img/biangbambo/bambo4.jpeg" title="Project 6" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
@@ -467,7 +484,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/bar2.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/bar2.jpeg') }}" class="img-fluid" alt="Gambar Bar 2">
                 <div class="portfolio-info">
                   <h4>Project 9</h4>
                   <p></p>
@@ -478,7 +495,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
               <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/kamar.jpeg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('assets/img/furniture/kamar.jpeg') }}" class="img-fluid" alt="Gambar Kamar">
                 <div class="portfolio-info">
                   <h4>Project 7</h4>
                   <a href="assets/img/furniture/kamar.jpeg" title="Project 7" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
@@ -488,7 +505,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="assets/img/biangbambo/bambo11.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/biangbambo/bambo11.jpeg" class="img-fluid" alt="Gambar Gazebo Bambu 11">
                 <div class="portfolio-info">
                   <h4>Project 8</h4>
                   <a href="assets/img/biangbambo/bambo11.jpeg" title="Project 8" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
@@ -547,7 +564,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="Gambar Testimoni Wanita">
                   <h3>Ratnasari</h3>
                   <h4>ibu &amp; Rumahtangga</h4>
                   <div class="stars">
@@ -565,7 +582,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="Gambar Testimoni Pria">
                   <h3>Herianto</h3>
                   <h4>Pengusaha</h4>
                   <div class="stars">
@@ -583,7 +600,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="Gambar Testimoni Wanita">
                   <h3>Amelia Kusuma</h3>
                   <h4>Pengusaha</h4>
                   <div class="stars">
@@ -601,7 +618,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets/img/testimonials/male.jpg') }}" class="testimonial-img" alt="Gambar Testimoni Pria">
                   <h3>Aditya</h3>
                   <h4>Freelancer</h4>
                   <div class="stars">
@@ -619,7 +636,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
+                <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="Gambar Testimoni Wanita">
                   <h3>Rina</h3>
                   <h4>Ibu rumah tangga</h4>
                   <div class="stars">
@@ -753,7 +770,7 @@
           </div>
         </div>
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
+      <p> <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->

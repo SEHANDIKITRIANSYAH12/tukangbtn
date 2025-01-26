@@ -1,2 +1,14 @@
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+Disallow: /password
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.xml$
+Allow: /sitemap.xml
+
+Sitemap: https://tukangbanten.com/sitemap.xml
+
+# Crawl-delay: 10
