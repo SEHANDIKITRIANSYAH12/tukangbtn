@@ -17,13 +17,13 @@
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://tukangbanten.com/">
+  <meta property="twitter:url" content="{{ url()->current() }}">
   <meta property="twitter:title" content="Tukang Banten - Layanan Konstruksi Terpercaya di Banten">
   <meta property="twitter:description" content="Layanan konstruksi profesional dan terpercaya di Banten. Spesialis renovasi rumah, konstruksi bangunan, dan jasa tukang berkualitas.">
   <meta property="twitter:image" content="{{ asset('assets/img/logoheader.png') }}">
 
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://tukangbanten.com/">
+  <!-- Canonical URL - Dynamic -->
+  <link rel="canonical" href="{{ url()->current() }}">
   <link rel="icon" href="{{ asset('assets/img/favicon.ico') }}" type="image/x-icon">
 
 
