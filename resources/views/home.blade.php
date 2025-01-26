@@ -169,7 +169,7 @@
       <img alt="Situs konstruksi dengan crane dan bangunan yang sedang dibangun" class="rounded-lg shadow-lg" height="400" src="https://sheltersengineering.com/wp-content/uploads/2023/06/Construction-Company-in-Islamabad.png" width="600"/>
     </div>
     <div class="flex flex-col justify-center">
-      <img alt="Gedung pencakar langit dan crane konstruksi" class="rounded-lg shadow-lg mb-8" height="400" src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=3394&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600"/>
+      <!-- <img alt="Gedung pencakar langit dan crane konstruksi" class="rounded-lg shadow-lg mb-8" height="400" src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=3394&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600"/> -->
       <ul class="space-y-4">
         <li class="flex items-center">
           <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
