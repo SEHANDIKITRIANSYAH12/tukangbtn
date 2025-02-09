@@ -585,6 +585,31 @@ h6 {
   font-size: 13px;
 }
 
+.info-item {
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+
+.info-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background: #e9ecef;
+}
+
+.info-item a:hover {
+  text-decoration: none;
+}
+
+.info-item i {
+  transition: color 0.3s ease-in-out;
+}
+
+.info-item:hover i {
+  color: #28a745; /* Warna hijau lebih cerah */
+}
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -2210,6 +2235,55 @@ section,
   margin: 0 0 15px 0 0 0;
   padding: 0;
 }
+
+.portfolio-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-card:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  transform: translateY(0);
+}
+
+.portfolio-overlay h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.glightbox.preview-link {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
 
 /*--------------------------------------------------------------
 # Blog Posts Section

@@ -73,21 +73,17 @@
             <li><a href="{{ url('/jasa2') }}" target="_blank">Jasa Tukang Desain Gambar<br>Dan Perencanaan</a></li>
             <li><a href="{{ url('/jasa3') }}" target="_blank">Jasa Tukang Parquet</a></li>
             <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Gajebo</a></li>
-           <!-- 
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Cleaning</a></li>
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Angkut</a></li>
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Buang Puing<br>Bangunan atau Proyek </a></li>
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Instalasi listrik</a></li>
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Pemasangan<br>Pipa</a></li>
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Pemasangan<br>AC & Service</a></li>
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Pengecatan<br>Rumah</a></li>
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Pembuatan<br>Lanscape Taman</a></li>
-            <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Tralis dan kanopi</a></li>
-            -->
+            <li><a href="{{ url('/jasa5') }}" target="_blank">Jasa Tukang Cleaning</a></li>
+            <li><a href="{{ url('/jasa6') }}" target="_blank">Jasa Tukang Instalasi listrik</a></li>
+            <li><a href="{{ url('/jasa8') }}" target="_blank">Jasa Tukang Pemasangan<br>Pipa</a></li>
+            <li><a href="{{ url('/jasa7') }}" target="_blank">Jasa Tukang Pemasangan<br>AC & Service</a></li>
+            <li><a href="{{ url('/jasa9') }}" target="_blank">Jasa Tukang Tralis dan kanopi</a></li>
+            <li><a href="{{ url('/jasa10') }}" target="_blank">Jasa Tukang Angkut</a></li>
+            <li><a href="{{ url('/jasa11') }}" target="_blank">Jasa Tukang Buang Puing<br>Bangunan atau Proyek </a></li>
+            <li><a href="{{ url('/jasa12') }}" target="_blank">Jasa Tukang Pengecatan<br>Rumah</a></li>
+            <li><a href="{{ url('/jasa13') }}" target="_blank">Jasa Tukang Pembuatan<br>Lanscape Taman</a></li>
           </ul>
         </li>
-        </ul>
-        </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
     </div>
@@ -207,61 +203,70 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="{{ asset('assets/img/constructions-4.jpg') }}" alt="Gambar Konstruksi 4"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Jasa Tukang Bangun Civil</h4>
-                    <p>• Bangunan perumahan
-                    <br>• Bangunan komersial (ruko, kantor)
-                    <br>• Renovasi dan perbaikan </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-  <div class="card-item">
-    <div class="row">
-      <div class="col-xl-5">
-        <div class="card-bg">
-          <img src="{{ asset('assets/img/biangbambo/bambo3.jpeg') }}" alt="Gambar Gajebo Bambu">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+  <a href="/jasa1" class="text-decoration-none text-dark">
+    <div class="card-item">
+      <div class="row">
+        <div class="col-xl-5">
+          <div class="card-bg">
+            <img src="{{ asset('assets/img/constructions-4.jpg') }}" alt="">
+          </div>
         </div>
-      </div>
-      <div class="col-xl-7 d-flex align-items-center">
-        <div class="card-body">
-          <h4 class="card-title">Jasa Tukang Gajebo</h4>
-          <table style="width: 100%; border-spacing: 0; color: white;">
-            <tr>
-              <td style="vertical-align: top; padding-right: 10px;">•</td>
-              <td>Gazebo Bambu dan Kayu</td>
-            </tr>
-            <tr>
-              <td style="vertical-align: top; padding-right: 10px;">•</td>
-              <td>Villa dan Bangunan Custom</td>
-            </tr>
-            <tr>
-              <td style="vertical-align: top; padding-right: 10px;">•</td>
-              <td>Furniture seperti Rak Sepatu dari Bambu dan Kayu</td>
-            </tr>
-          </table>
+        <div class="col-xl-7 d-flex align-items-center">
+          <div class="card-body">
+            <h4 class="card-title">Jasa Tukang Bangun Civil</h4>
+            <p>• Bangunan perumahan  
+            <br>• Bangunan komersial (ruko, kantor)  
+            <br>• Renovasi dan perbaikan</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </a>
 </div>
 
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+  <a href="/jasa4" class="text-decoration-none text-dark">
+    <div class="card-item">
+      <div class="row">
+        <div class="col-xl-5">
+          <div class="card-bg">
+            <img src="{{ asset('assets/img/biangbambo/bambo3.jpeg') }}" alt="">
+          </div>
+        </div>
+        <div class="col-xl-7 d-flex align-items-center">
+          <div class="card-body">
+            <h4 class="card-title">Jasa Tukang Gazebo</h4>
+            <table style="width: 100%; border-spacing: 0; color: white;">
+              <tr>
+                <td style="vertical-align: top; padding-right: 10px;">•</td>
+                <td>Gazebo Bambu dan Kayu</td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 10px;">•</td>
+                <td>Villa dan Bangunan Custom</td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 10px;">•</td>
+                <td>Furniture seperti Rak Sepatu dari Bambu dan Kayu</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+
 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+<a href="/jasa2" class="text-decoration-none text-dark">
   <div class="card-item" style="color: white;">
     <div class="row">
       <div class="col-xl-5">
         <div class="card-bg">
-          <img src="{{ asset('assets/img/erd.jpg') }}" alt="Gambar Desain Gambar dan Perencanaan">
+          <img src="{{ asset('assets/img/erd.jpg') }}" alt="">
         </div>
       </div>
       <div class="col-xl-7 d-flex align-items-center">
@@ -285,14 +290,16 @@
       </div>
     </div>
   </div>
+</a>
 </div><!-- End Card Item -->
 
 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+<a href="/jasa3" class="text-decoration-none text-dark">
   <div class="card-item" style="color: white;">
     <div class="row">
       <div class="col-xl-5">
         <div class="card-bg">
-          <img src="{{ asset('assets/img/furniture/parquet3.png') }}" alt="Gambar Pemasangan Parquet">
+          <img src="{{ asset('assets/img/furniture/parquet3.png') }}" alt="">
         </div>
       </div>
       <div class="col-xl-7 d-flex align-items-center">
@@ -320,7 +327,336 @@
       </div>
     </div>
   </div>
+</a>
+</div>
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+<a href="/jasa5" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/bersih/bersih1.jpg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Cleaning</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pembersihan Rumah dan Kantor</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Cuci Karpet dan Sofa</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pembersihan Kaca dan Lantai</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Jasa Disinfeksi dan Sterilisasi</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
 </div><!-- End Card Item -->
+
+<!-- Jasa Tukang Instalasi Listrik -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+<a href="/jasa6" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/listrik/listrik1.jpeg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Instalasi Listrik</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemasangan Instalasi Listrik Rumah & Gedung</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Perbaikan dan Pemeliharaan Instalasi</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemasangan Panel Listrik & Stop Kontak</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Grounding dan Sistem Keamanan Listrik</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</div><!-- End Card Item -->
+
+<!-- Jasa Tukang Pemasangan Pipa -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="700">
+<a href="/jasa8" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/pipa/pipa1.png') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Pemasangan Pipa</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemasangan Instalasi Pipa Air Bersih & Air Kotor</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Perbaikan dan Deteksi Kebocoran Pipa</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemasangan Toren dan Pompa Air</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pembersihan dan Perawatan Saluran Air</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</div><!-- End Card Item -->
+
+<!-- Jasa Tukang Pemasangan & Service AC -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="800">
+<a href="/jasa7" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/ac/ac2.jpg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Pemasangan & Service AC</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemasangan AC Baru & Bekas</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Perawatan & Cuci AC Berkala</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pengisian & Perbaikan Freon</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Perbaikan AC Mati atau Tidak Dingin</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</div><!-- End Card Item -->
+
+<!-- Jasa Tukang Tralis & Kanopi -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="900">
+<a href="/jasa9" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/tralis/tralis3.jpg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Tralis & Kanopi</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pembuatan dan pemasangan tralis jendela & pintu</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemasangan kanopi baja ringan & besi hollow</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Perbaikan & pengecatan ulang kanopi</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</div><!-- End Card Item -->
+
+<!-- Jasa Tukang Angkut -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="1000">
+<a href="/jasa10" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/tukangangkut/angkut1.jpg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Angkut</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemindahan barang proyek atau rumah</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Jasa angkut material bangunan</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pindahan rumah atau kantor</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</div><!-- End Card Item -->
+
+<!-- Jasa Tukang Buang Puing Bangunan atau Proyek -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="1100">
+<a href="/jasa11" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/puing/puing.jpg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Buang Puing Bangunan atau Proyek</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pembersihan dan pembuangan puing proyek</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pembuangan sampah konstruksi</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pengangkutan material bekas</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</div><!-- End Card Item -->
+
+<!-- Jasa Tukang Pengecatan Rumah -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="1200">
+<a href="/jasa12" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/cat/cat2.jpg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Pengecatan Rumah</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pengecatan rumah, gedung, dan kantor</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pengecatan interior dan eksterior</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pengecatan ulang dan finishing</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</div><!-- End Card Item -->
+
+<!-- Jasa Tukang Pembuatan Landscape Taman -->
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="1300">
+<a href="/jasa13" class="text-decoration-none text-dark">
+  <div class="card-item" style="color: white;">
+    <div class="row">
+      <div class="col-xl-5">
+        <div class="card-bg">
+          <img src="{{ asset('assets/img/taman/taman2.jpg') }}" alt="">
+        </div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Jasa Tukang Pembuatan Landscape Taman</h4>
+          <table style="width: 100%; border-spacing: 0;">
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Desain dan pembuatan taman minimalis & modern</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pemasangan rumput sintetis & alami</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pembuatan taman kering dan taman vertikal</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top; padding-right: 10px;">•</td>
+              <td>Pembuatan kolam ikan dan air mancur hias</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+</div><!-- End Card Item -->
+
+
+<!-- End Card Item -->
     </section><!-- /Constructions Section -->
 
     <!-- Services Section -->
@@ -665,86 +1001,87 @@
             <br>
             <p>Kami siap membantu Anda dengan segala kebutuhan renovasi dan pembangunan rumah. Jangan ragu untuk menghubungi kami!</p>
           </div><!-- End Section Title -->
-          <!-- Contact Section -->
-        <section id="contact" class="contact section">
-
+         <!-- Contact Section -->
+<section id="contact" class="contact section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-      <div class="row gy-4">
-
-        <div class="col-lg-6">
-          <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-            <i class="bi bi-geo-alt"></i>
-            <h3>Alamat</h3>
-            <p>Rangkasbitung Lebak Banten</p>
-          </div>
-        </div><!-- End Info Item -->
-
-        <div class="col-lg-3 col-md-6">
-      <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-        <a href="https://wa.me/6281292948453" target="_blank" class="info-link">
-          <i class="bi bi-telephone" style="margin-left: 20px; font-size: 24px;"></i>
-          <h3>Hubungi Kami</h3>
-          <p>0812-9294-8453</p>
-        </a>
-      </div>
-    </div>
-
-
-        <div class="col-lg-3 col-md-6">
-          <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-            <i class="bi bi-envelope"></i>
-            <h3>Email Kami</h3>
-            <p>TukangBanten@gmail.com</p>
-          </div>
-        </div><!-- End Info Item -->
-
-      </div>
-
-      <div class="row gy-4 mt-1">
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3975577621322!2d106.2597275!3d-6.3425288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211b6429ba411%3A0xf618ecda7031e570!2sPERUMAHAN%20ROYAL%20SOETA!5e0!3m2!1sid!2sid!4v1736418545992!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div><!-- End Google Maps -->
-
-        <div class="col-lg-6">
-        @if(session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
-
-        <form action="{{ route('contact.send') }}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
-        @csrf
         <div class="row gy-4">
-            <div class="col-md-6">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+
+            <!-- Info Section -->
+            <div class="col-lg-4">
+                <div class="info-item text-center p-4" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-geo-alt fs-2 text-primary"></i>
+                    <h4 class="mt-3">Alamat</h4>
+                    <p>Rangkasbitung, Lebak, Banten</p>
+                </div>
             </div>
 
-            <div class="col-md-6">
-                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+            <div class="col-lg-4">
+                <div class="info-item text-center p-4" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://wa.me/6281292948453" target="_blank" class="info-link text-decoration-none text-dark">
+                        <i class="bi bi-telephone fs-2 text-success"></i>
+                        <h4 class="mt-3">Hubungi Kami</h4>
+                        <p>0812-9294-8453</p>
+                    </a>
+                </div>
             </div>
 
-            <div class="col-md-12">
-                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+            <div class="col-lg-4">
+                <div class="info-item text-center p-4" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-envelope fs-2 text-danger"></i>
+                    <h4 class="mt-3">Email Kami</h4>
+                    <p><a href="mailto:TukangBanten@gmail.com" class="text-decoration-none text-dark">TukangBanten@gmail.com</a></p>
+                </div>
             </div>
 
-            <div class="col-md-12">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-            </div>
-
-            <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                <button type="submit">Send Message</button>
-            </div>
         </div>
-    </form>
-        </div><!-- End Contact Form -->
-      </div>
+
+        <!-- Google Maps & Contact Form -->
+        <div class="row gy-4 mt-3">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3975577621322!2d106.2597275!3d-6.3425288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211b6429ba411%3A0xf618ecda7031e570!2sPERUMAHAN%20ROYAL%20SOETA!5e0!3m2!1sid!2sid!4v1736418545992!5m2!1sid!2sid" 
+                    class="rounded shadow-sm w-100" style="height: 400px; border: 0;" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="col-lg-6">
+                @if(session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+                @endif
+
+                <form action="{{ route('contact.send') }}" method="post" class="php-email-form p-4 border rounded shadow-sm" data-aos="fade-up" data-aos-delay="400">
+                    @csrf
+                    <div class="row gy-3">
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Nama Anda *" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" name="email" placeholder="Email Anda *" required>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="subject" placeholder="Judul Pesan *" required>
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Tulis pesan Anda *" required></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Pesan Anda telah terkirim. Terima kasih!</div>
+                            <button type="submit" class="btn btn-primary px-4 py-2 mt-2">Kirim Pesan</button>
+                        </div>
+                    </div>
+                </form>
+            </div><!-- End Contact Form -->
+        </div>
     </div>
-    </section><!-- /Contact Section -->
+</section>>
     
   </main>
 
