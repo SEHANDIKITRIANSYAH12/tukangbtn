@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Jasa Pemasangan Parquet Tukangbanten</title>
+  <title>Jasa Tukang Cleaning</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -34,7 +34,7 @@
 
 <body class="about-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
+<header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="/" class="logo d-flex align-items-center">
@@ -48,8 +48,8 @@
         <li><a href="{{ url('/home') }}" class="">Jadimitra</a></li>
 
         <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-        <ul>
-        <li><a href="{{ url('/jasa1') }}">Jasa Tukang Bangun Civil</a></li>
+            <ul>
+            <li><a href="{{ url('/jasa1') }}">Jasa Tukang Bangun Civil</a></li>
             <li><a href="{{ url('/jasa2') }}">Jasa Tukang Desain Gambar<br>Dan Perencanaan</a></li>
             <li><a href="{{ url('/jasa3') }}">Jasa Tukang Parquet</a></li>
             <li><a href="{{ url('/jasa4') }}">Jasa Tukang Gajebo</a></li>
@@ -74,13 +74,13 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/furniture/parquetbg.jpg);">
+    <div class="page-title dark-background" style="background-image: url(https://ukcleaningsupplies.co.uk/wp-content/uploads/2023/07/cleaning-supplies.jpg);">
       <div class="container position-relative">
       <h1 class="sitename">Tukang<span class="highlight">Banten.</span></h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="jasa1">JADIMITRA</a></li>
-            <li class="current">LAYANAN PEMASANGAN PARQUET</li>
+            <li class="current">JASA TUKANG CLEANING</li>
           </ol>
         </nav>
       </div>
@@ -91,21 +91,20 @@
   <div class="container">
     <div class="row position-relative">
       <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/furniture/parquet4.png" alt="Gambar Jasa Renovasi Rumah">
+        <img src="/assets/img/bersih/bersih5.jpg" alt="Gambar Jasa Renovasi Rumah">
       </div>
       <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
         <h2 class="inner-title">KENAPA HARUS PAKAI JASA KAMI ?</h2>
         <div class="our-story">
           <h4></h4>
-          <h3>LAYANAN PEMASANGAN PARQUET</h3>
-          <p>Kami menyediakan jasa pemasangan parquet untuk berbagai jenis ruang, baik untuk hunian pribadi maupun komersial. Parquet merupakan pilihan yang elegan dan tahan lama, memberikan nuansa alami serta kehangatan pada ruangan. Kami menawarkan berbagai opsi material parquet, seperti kayu solid dan engineered, yang masing-masing memiliki karakteristik tersendiri.</p>
+          <h3>JASA TUKANG CLEANING</h3>
+          <p>Kami adalah pilihan utama dalam jasa cleaning service profesional. Dengan pengalaman dan keahlian yang mumpuni, kami menghadirkan kebersihan maksimal di setiap sudut ruangan, menciptakan lingkungan yang sehat dan nyaman untuk Anda. Kami memahami bahwa kebersihan adalah investasi penting bagi kenyamanan dan kesehatan, sehingga kami berkomitmen untuk menyediakan layanan yang jujur, profesional, dan berkualitas tinggi. Kami melayani berbagai kebutuhan kebersihan, mulai dari pembersihan rutin hingga deep cleaning. Setiap pekerjaan dilakukan dengan penuh perhatian terhadap detail, penggunaan bahan pembersih berkualitas, dan ketepatan waktu, memastikan ruangan Anda selalu bersih, segar, dan higienis.</p>
           <ul>
-            <li><i class="bi bi-check-circle"></i> <span>"Desain Kreatif dan Estetis"</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Fungsionalitas dan Kenyamanan"</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Material Berkualitas"</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Pelayanan profesional"</span></li>
+          <li><i class="bi bi-check-circle"></i> <span>"Kami bekerja dengan dedikasi penuh untuk menghadirkan kebersihan maksimal, tepat waktu, dan sesuai kebutuhan Anda."</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Tim ahli kami siap membantu Anda menciptakan lingkungan yang bersih dan higienis dengan layanan yang dapat diandalkan."</span></li>
+            <li><i class="bi bi-check-circle"></i> <span>"Menggunakan peralatan modern dan produk pembersih berkualitas, kami memastikan setiap sudut ruangan bersih dengan standar tertinggi."</span></li>
+
           </ul>
-          <p>Layanan pemasangan parquet kami adalah pilihan ideal untuk mempercantik ruangan seperti ruang tamu, kamar tidur, hingga area komersial seperti butik dan restoran, menciptakan suasana elegan dan nyaman bagi para pengguna.</p>
           <div class="watch-video d-flex align-items-center position-relative">
             <i class="bi bi-play-circle"></i>
             <a href="https://www.youtube.com/watch?v=_QMEmCHDFMw" class="glightbox stretched-link">Watch Video</a>
@@ -123,139 +122,94 @@
       <div id="carouselExample" class="carousel slide col-lg-6" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="100">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/furniture/parquet.jpeg" class="d-block w-100" alt="Desain Interior 1">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/furniture/parquet3.png" class="d-block w-100" alt="Desain Interior 2">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/furniture/parquet2.png" class="d-block w-100" alt="Desain Interior 3">
+            <img src="/assets/img/bersih/bersih4.jpg" class="d-block w-100" alt="Desain Interior 1">
           </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
       </div>
-      <!-- Text and Icon Boxes -->
-      <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-    <h3>Desain dan Pemasangan Parquet Impian Anda</h3>
-    <p>Kami menawarkan layanan pemasangan parquet untuk menciptakan suasana ruangan yang hangat, elegan, dan alami sesuai kebutuhan Anda. Mulai dari ruang tamu hingga area komersial, kami memastikan setiap ruangan tampil cantik dengan pilihan parquet yang tepat. Kami menyediakan solusi desain interior praktis dengan material parquet berkualitas tinggi dan berbagai pola menarik, memberikan kesan modern dan mewah pada ruang Anda. Setiap langkah pemasangan parquet dirancang untuk melengkapi tema dan gaya yang diinginkan, menghadirkan nuansa nyaman sekaligus estetis di setiap sudut ruangan.</p>
+     <!-- Text and Icon Boxes -->
+     <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+    <h3>Mewujudkan Lingkungan Bersih dan Sehat dengan Layanan Cleaning Profesional</h3>
+    <p>Kami menawarkan layanan cleaning service terintegrasi yang mencakup pembersihan mendalam untuk berbagai jenis ruangan. Dengan pendekatan menyeluruh, kami memastikan setiap sudut ruang Anda—dari lantai hingga perabotan—dibersihkan secara menyeluruh untuk menciptakan lingkungan yang nyaman, higienis, dan sehat. Tim kami menggabungkan teknik pembersihan modern dengan produk ramah lingkungan, memberikan hasil terbaik untuk setiap layanan yang kami tawarkan.</p>
     
     <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-    <i class="fas fa-th-large flex-shrink-0"></i> <!-- Ikon yang lebih cocok untuk Desain Parquet -->
-    <div>
-        <h4><a href="" class="stretched-link">Desain Parquet</a></h4>
-        <p>Kami membantu Anda memilih jenis parquet yang sesuai, dengan pola-pola klasik seperti herringbone, chevron, dan pola acak yang mampu memberikan karakter unik pada ruangan.</p>
-    </div>
-</div>
-
-<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-    <i class="fas fa-tree flex-shrink-0"></i> <!-- Ikon yang lebih cocok untuk Material Berkualitas -->
-    <div>
-        <h4><a href="" class="stretched-link">Material Berkualitas</a></h4>
-        <p>Kami menawarkan berbagai pilihan parquet dari kayu solid hingga engineered wood yang tahan lama, ramah lingkungan, dan cocok untuk berbagai kondisi ruangan.</p>
-    </div>
-</div>
-
-<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-    <i class="fas fa-tools flex-shrink-0"></i> <!-- Ikon yang lebih cocok untuk Pemasangan Profesional -->
-    <div>
-        <h4><a href="" class="stretched-link">Pemasangan Profesional</a></h4>
-        <p>Tim kami yang berpengalaman akan memastikan setiap potongan parquet dipasang dengan presisi, menciptakan hasil akhir yang rapi dan kokoh.</p>
-    </div>
-</div>
-
-<div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-    <i class="fas fa-brush flex-shrink-0"></i> <!-- Ikon yang lebih cocok untuk Finishing & Perawatan -->
-    <div>
-        <h4><a href="" class="stretched-link">Finishing & Perawatan</a></h4>
-        <p>Selain pemasangan, kami menyediakan layanan finishing untuk melindungi permukaan parquet serta perawatan berkala agar parquet selalu tampak baru dan awet.</p>
-    </div>
-</div>
-
-
-</div>
-
-    <section id="projects" class="projects section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contoh Desain Parquet</h2>
-        <p> Kami berkomitmen untuk mewujudkan desain yang sesuai dengan kebutuhan dan selera klien, mulai dari konsep modern minimalis hingga klasik yang elegan.</p>
-      </div>
-      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-      <div class="container">
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet1.png') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 1</h4>
-                  <a href="assets/img/furniture/parquet1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet2.png') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 2</h4>
-                  <a href="assets/img/furniture/parquet2.png" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet3.png') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 3</h4>
-                  <a href="assets/img/furniture/parquet3.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet4.png') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 4</h4>
-                  <a href="assets/img/furniture/parquet4.png" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet.jpeg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 5</h4>
-                  <a href="assets/img/furniture/parquet.jpeg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-              <div class="portfolio-content h-100">
-              <img src="{{ asset('assets/img/furniture/parquet6.jpg') }}" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Example 5</h4>
-                  <a href="assets/img/furniture/parquet6.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-          </div><!-- End Portfolio Container -->
+        <i class="fas fa-broom flex-shrink-0"></i>
+        <div>
+            <h4><a href="" class="stretched-link">Pembersihan Menyeluruh</a></h4>
+            <p>Membersihkan setiap sudut ruangan, dari lantai hingga langit-langit, dengan teknik yang efektif dan efisien.</p>
         </div>
-      </div>
-    </section><!-- /Projects Section -->
+    </div>
+    
+    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+        <i class="fas fa-pump-soap flex-shrink-0"></i>
+        <div>
+            <h4><a href="" class="stretched-link">Disinfeksi dan Sterilisasi</a></h4>
+            <p>Menggunakan produk pembersih berkualitas tinggi untuk memastikan ruangan bebas dari kuman dan bakteri.</p>
+        </div>
+    </div>
+    
+    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+        <i class="fas fa-hand-sparkles flex-shrink-0"></i>
+        <div>
+            <h4><a href="" class="stretched-link">Produk Ramah Lingkungan</a></h4>
+            <p>Menggunakan bahan pembersih yang aman bagi kesehatan dan tidak merusak lingkungan.</p>
+        </div>
+    </div>
+    
+    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+        <i class="fas fa-users flex-shrink-0"></i>
+        <div>
+            <h4><a href="" class="stretched-link">Layanan Profesional</a></h4>
+            <p>Tim ahli kami siap memberikan layanan terbaik dengan standar kebersihan tinggi dan hasil maksimal.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="portfolio section-padding">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="fw-bold">Galeri Layanan Cleaning</h2>
+            <p class="text-muted">Lihat berbagai layanan pembersihan yang telah kami kerjakan dengan hasil terbaik.</p>
+        </div>
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <!-- Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-card">
+                    <img src="{{ asset('/assets/img/bersih/bersih1.jpg') }}" class="img-fluid" alt="Cleaning Example 1">
+                    <div class="portfolio-overlay">
+                        <h4>Deep Cleaning</h4>
+                        <a href="/assets/img/bersih/bersih1.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-card">
+                    <img src="{{ asset('/assets/img/bersih/bersih2.jpg') }}" class="img-fluid" alt="Cleaning Example 2">
+                    <div class="portfolio-overlay">
+                        <h4>General Cleaning</h4>
+                        <a href="/assets/img/bersih/bersih2.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item">
+                <div class="portfolio-card">
+                    <img src="{{ asset('/assets/img/bersih/bersih3.jpg') }}" class="img-fluid" alt="Cleaning Example 3">
+                    <div class="portfolio-overlay">
+                        <h4>Office Cleaning</h4>
+                        <a href="/assets/img/bersih/bersih3.jpg" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
    
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
@@ -264,7 +218,6 @@
         <h2>Cerita Jujur Dari Client Tukang Banten</h2>
         <p>Klien kami di Tukang Banten sering berbagi pengalaman positif tentang hasil kerja kami, mulai dari ketepatan desain hingga kualitas pengerjaan.</p>
       </div><!-- End Section Title -->
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper init-swiper">
@@ -306,7 +259,7 @@
       </div>
       <p>
         <i class="bi bi-quote quote-icon-left"></i>
-        <span>"Lantai vinyl dari TUKANG BANTEN membuat rumah saya terlihat lebih elegan dan modern. Proses pemasangannya sangat cepat, dan hasil akhirnya benar-benar memuaskan. Anak-anak saya juga merasa nyaman bermain di atas lantai yang baru. Terima kasih banyak!"</span>
+        <span>"Saya sangat puas dengan layanan cleaning dari TUKANG BANTEN. Rumah saya jadi lebih bersih dan nyaman. Timnya sangat teliti dalam membersihkan setiap sudut, bahkan area yang sulit dijangkau. Pelayanan mereka juga ramah dan profesional. Terima kasih!"</span>
         <i class="bi bi-quote quote-icon-right"></i>
       </p>
     </div>
@@ -324,7 +277,7 @@
       </div>
       <p>
         <i class="bi bi-quote quote-icon-left"></i>
-        <span>"Pemasangan parquet oleh TUKANG BANTEN di kantor saya membuat suasana lebih hangat dan profesional. Mereka sangat detail dalam pengerjaannya, dan hasilnya luar biasa. Saya sangat puas dengan pelayanan dan kualitasnya."</span>
+        <span>"Kantor saya jadi jauh lebih bersih dan nyaman setelah menggunakan jasa cleaning dari TUKANG BANTEN. Mereka bekerja cepat dan hasilnya benar-benar memuaskan. Sangat direkomendasikan untuk bisnis yang ingin menjaga kebersihan tempat kerja."</span>
         <i class="bi bi-quote quote-icon-right"></i>
       </p>
     </div>
@@ -336,13 +289,13 @@
     <div class="testimonial-item">
       <img src="{{ asset('assets/img/testimonials/female.jpg') }}" class="testimonial-img" alt="">
       <h3>Amelia Kusuma</h3>
-      <h4>Desainer Interior</h4>
+      <h4>Pengusaha</h4>
       <div class="stars">
         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
       </div>
       <p>
         <i class="bi bi-quote quote-icon-left"></i>
-        <span>"Sebagai desainer interior, saya sering merekomendasikan lantai vinyl dan parquet dari TUKANG BANTEN. Produk mereka tidak hanya berkualitas tinggi, tetapi juga tahan lama dan mudah dirawat. Klien saya selalu puas dengan hasilnya."</span>
+        <span>"TUKANG BANTEN benar-benar memberikan layanan cleaning yang berkualitas. Saya menggunakan jasa mereka untuk membersihkan apartemen sebelum pindahan, dan hasilnya luar biasa. Bersih, wangi, dan terasa seperti baru! Terima kasih banyak!"</span>
         <i class="bi bi-quote quote-icon-right"></i>
       </p>
     </div>
@@ -360,7 +313,7 @@
       </div>
       <p>
         <i class="bi bi-quote quote-icon-left"></i>
-        <span>"Saya memutuskan untuk mengganti lantai rumah saya dengan parquet dari TUKANG BANTEN, dan hasilnya sangat memuaskan. Proses pemasangannya rapi, dan timnya sangat profesional. Rumah saya kini terasa lebih nyaman dan berkelas."</span>
+        <span>"Sangat merekomendasikan TUKANG BANTEN untuk jasa cleaning. Mereka membersihkan rumah saya dengan detail dan hasilnya sangat memuaskan. Tidak ada debu yang tertinggal, bahkan di area yang sulit dijangkau. Profesional dan terpercaya!"</span>
         <i class="bi bi-quote quote-icon-right"></i>
       </p>
     </div>
@@ -378,25 +331,25 @@
       </div>
       <p>
         <i class="bi bi-quote quote-icon-left"></i>
-        <span>"Vinyl dari TUKANG BANTEN benar-benar mengubah tampilan rumah saya. Mudah dibersihkan dan tahan lama, sangat cocok untuk keluarga dengan anak kecil seperti saya. Layanan mereka juga sangat responsif dan profesional."</span>
+        <span>"Layanan cleaning dari TUKANG BANTEN sangat membantu saya yang sibuk mengurus keluarga. Mereka membersihkan rumah dengan cepat dan hasilnya sangat memuaskan. Rumah terasa lebih sehat dan nyaman setelah dibersihkan oleh tim mereka!"</span>
         <i class="bi bi-quote quote-icon-right"></i>
       </p>
     </div>
   </div>
 </div><!-- End testimonial item -->
+
            </div>
           <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
     <!-- /Testimonials Section -->
-
-     <!-- Layanan kami section -->
-     <div class="container section-title" data-aos="fade-up">
-        <h2>Hubungi Kami</h2>
-        <p>Kami siap membantu Anda dengan segala kebutuhan renovasi dan pembangunan rumah. Jangan ragu untuk menghubungi kami!</p>
-      </div><!-- End Section Title -->
-      <!-- Contact Section -->
+   <!-- Hubungi Kami Section -->
+<div class="container section-title text-center" data-aos="fade-up">
+    <h2>Hubungi Kami</h2>
+    <p>Kami siap membantu segala kebutuhan renovasi dan pembangunan rumah. Jangan ragu untuk menghubungi kami!</p>
+</div>
+<!-- Contact Section -->
 <section id="contact" class="contact section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4">
@@ -479,41 +432,42 @@
 </section>
 
 
+
   </main>
 
   <footer id="footer" class="footer dark-background">
 
-<div class="container footer-top">
-  <div class="row gy-4">
-    <div class="col-lg-4 col-md-6 footer-about">
-      <a href="#" class="logo d-flex align-items-center">
-      <span class="sitename">Tukang<span class="highlight">Banten.</span></span>
-      </a>
-      <div class="footer-contact pt-3">
-        <p>PERUMAHAN ROYAL SOETA</p>
-        <p>Cijoro Pasir, Kec. Rangkasbitung, Kabupaten Lebak, Banten 42316</p>
-        <p class="mt-3"><strong>Telepon:</strong> <span>0812-9294-8453</span></p>
-        <p><strong>Email:</strong> <span>TukangBanten@gmail.com</span></p>
-      </div>
-      <div class="social-links d-flex mt-4">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="#" class="logo d-flex align-items-center">
+          <span class="sitename">Tukang<span class="highlight">Banten.</span></span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>PERUMAHAN ROYAL SOETA</p>
+            <p>Cijoro Pasir, Kec. Rangkasbitung, Kabupaten Lebak, Banten 42316</p>
+            <p class="mt-3"><strong>Telepon:</strong> <span>0812-9294-8453</span></p>
+            <p><strong>Email:</strong> <span>TukangBanten@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://github.com/SEHANDIKITRIANSYAH12">SehanDikiTriansyah</a>
       </div>
     </div>
-<div class="container copyright text-center mt-4">
-  <p>© <span>Copyright</span> <strong class="px-1 sitename">Tukang Banten</strong> <span>All Rights Reserved</span></p>
-  <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you've purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-    Designed by <a href="https://github.com/SEHANDIKITRIANSYAH12">SehanDikiTriansyah</a>
-  </div>
-</div>
 
-</footer>
+  </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
