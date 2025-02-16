@@ -75,10 +75,10 @@
             <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Gajebo</a></li>
             <li><a href="{{ url('/jasa5') }}" target="_blank">Jasa Tukang Cleaning</a></li>
             <li><a href="{{ url('/jasa6') }}" target="_blank">Jasa Tukang Instalasi listrik</a></li>
-            <li><a href="{{ url('/jasa8') }}" target="_blank">Jasa Tukang Pemasangan<br>Pipa</a></li>
+            <li><a href="{{ url('/jasa8') }}" target="_blank">Jasa Tukang Pemasangan<br>Pipa Air / Service</a></li>
             <li><a href="{{ url('/jasa7') }}" target="_blank">Jasa Tukang Pemasangan<br>AC & Service</a></li>
             <li><a href="{{ url('/jasa9') }}" target="_blank">Jasa Tukang Tralis dan kanopi</a></li>
-            <li><a href="{{ url('/jasa10') }}" target="_blank">Jasa Tukang Angkut</a></li>
+            <li><a href="{{ url('/jasa10') }}" target="_blank">Jasa Tukang Angkut Barang</a></li>
             <li><a href="{{ url('/jasa11') }}" target="_blank">Jasa Tukang Buang Puing<br>Bangunan atau Proyek </a></li>
             <li><a href="{{ url('/jasa12') }}" target="_blank">Jasa Tukang Pengecatan<br>Rumah</a></li>
             <li><a href="{{ url('/jasa13') }}" target="_blank">Jasa Tukang Pembuatan<br>Lanscape Taman</a></li>
@@ -417,7 +417,7 @@
       </div>
       <div class="col-xl-7 d-flex align-items-center">
         <div class="card-body">
-          <h4 class="card-title">Jasa Tukang Pemasangan Pipa</h4>
+          <h4 class="card-title">Jasa Tukang Pemasangan Pipa Air / Service</h4>
           <table style="width: 100%; border-spacing: 0;">
             <tr>
               <td style="vertical-align: top; padding-right: 10px;">•</td>
@@ -527,7 +527,7 @@
       </div>
       <div class="col-xl-7 d-flex align-items-center">
         <div class="card-body">
-          <h4 class="card-title">Jasa Tukang Angkut</h4>
+          <h4 class="card-title">Jasa Tukang Angkut Barang</h4>
           <table style="width: 100%; border-spacing: 0;">
             <tr>
               <td style="vertical-align: top; padding-right: 10px;">•</td>

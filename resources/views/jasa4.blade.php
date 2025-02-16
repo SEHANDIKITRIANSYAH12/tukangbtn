@@ -55,15 +55,13 @@
             <li><a href="{{ url('/jasa4') }}">Jasa Tukang Gajebo</a></li>
             <li><a href="{{ url('/jasa5') }}">Jasa Tukang Cleaning</a></li>
             <li><a href="{{ url('/jasa6') }}">Jasa Tukang Instalasi listrik</a></li>
-            <li><a href="{{ url('/jasa8') }}">Jasa Tukang Pemasangan<br>Pipa</a></li>
+            <li><a href="{{ url('/jasa8') }}">Jasa Tukang Pemasangan<br>Pipa Air / Service</a></li>
             <li><a href="{{ url('/jasa7') }}">Jasa Tukang Pemasangan<br>AC & Service</a></li>
             <li><a href="{{ url('/jasa9') }}">Jasa Tukang Tralis dan kanopi</a></li>
-            <li><a href="{{ url('/jasa10') }}">Jasa Tukang Angkut</a></li>
+            <li><a href="{{ url('/jasa10') }}">Jasa Tukang Angkut Barang</a></li>
             <li><a href="{{ url('/jasa11') }}">Jasa Tukang Buang Puing<br>Bangunan atau Proyek </a></li>
             <li><a href="{{ url('/jasa12') }}">Jasa Tukang Pengecatan<br>Rumah</a></li>
             <li><a href="{{ url('/jasa13') }}">Jasa Tukang Pembuatan<br>Lanscape Taman</a></li>
-            </ul>
-          </li>
         </ul>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -106,11 +104,12 @@
             <li><i class="bi bi-check-circle"></i> <span>"Struktur Tahan Lama dan Ramah Lingkungan"</span></li>
             <li><i class="bi bi-check-circle"></i> <span>"Pelayanan Profesional dan Terpercaya"</span></li>
           </ul>
-          <p>Produk kami meliputi villa, gazebo, lemari, rak sepatu, kursi, tempat tidur, dan berbagai jenis furnitur lainnya. Setiap produk dibuat dengan perhatian terhadap detail, memadukan keindahan desain tradisional dan modern. Kami siap membantu Anda menciptakan ruang yang nyaman, estetis, dan fungsional dengan nuansa alami.</p>
-          <div class="watch-video d-flex align-items-center position-relative">
+           <!-- 
+        <div class="watch-video d-flex align-items-center position-relative">
             <i class="bi bi-play-circle"></i>
             <a href="https://www.youtube.com/watch?v=_QMEmCHDFMw" class="glightbox stretched-link">Watch Video</a>
-          </div>
+        </div>
+        -->
         </div>
       </div>
     </div>

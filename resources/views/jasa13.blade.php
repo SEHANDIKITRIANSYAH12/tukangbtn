@@ -55,15 +55,13 @@
             <li><a href="{{ url('/jasa4') }}">Jasa Tukang Gajebo</a></li>
             <li><a href="{{ url('/jasa5') }}">Jasa Tukang Cleaning</a></li>
             <li><a href="{{ url('/jasa6') }}">Jasa Tukang Instalasi listrik</a></li>
-            <li><a href="{{ url('/jasa8') }}">Jasa Tukang Pemasangan<br>Pipa</a></li>
+            <li><a href="{{ url('/jasa8') }}">Jasa Tukang Pemasangan<br>Pipa Air / Service</a></li>
             <li><a href="{{ url('/jasa7') }}">Jasa Tukang Pemasangan<br>AC & Service</a></li>
             <li><a href="{{ url('/jasa9') }}">Jasa Tukang Tralis dan kanopi</a></li>
-            <li><a href="{{ url('/jasa10') }}">Jasa Tukang Angkut</a></li>
+            <li><a href="{{ url('/jasa10') }}">Jasa Tukang Angkut Barang</a></li>
             <li><a href="{{ url('/jasa11') }}">Jasa Tukang Buang Puing<br>Bangunan atau Proyek </a></li>
             <li><a href="{{ url('/jasa12') }}">Jasa Tukang Pengecatan<br>Rumah</a></li>
             <li><a href="{{ url('/jasa13') }}">Jasa Tukang Pembuatan<br>Lanscape Taman</a></li>
-            </ul>
-          </li>
         </ul>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -96,22 +94,29 @@
       <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
         <h2 class="inner-title">KENAPA HARUS PAKAI JASA KAMI?</h2>
         <div class="our-story">
-          <h3>JASA PROFESIONAL LANDSCAPE TAMAN</h3>
-          <p>Kami menyediakan layanan pembuatan landscape taman yang estetis, hijau, dan nyaman. Dengan desain yang disesuaikan serta tenaga ahli yang berpengalaman, kami siap menciptakan taman impian Anda.</p>
+          <h3>TRANSFORMASI TAMAN IMPIAN ANDA MENJADI KENYATAAN!</h3>
+          <p>
+            Ingin memiliki taman yang asri, hijau, dan nyaman? Kami hadir untuk mewujudkan keindahan alami di halaman Anda!  
+            Dengan sentuhan profesional, setiap sudut taman akan dipadukan dengan estetika dan fungsi yang harmonis.
+          </p>
           <ul>
-            <li><i class="bi bi-check-circle"></i> <span>"Desain taman yang indah dan sesuai kebutuhan."</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Menggunakan tanaman dan material berkualitas tinggi."</span></li>
-            <li><i class="bi bi-check-circle"></i> <span>"Tim profesional dengan pengalaman bertahun-tahun."</span></li>
+            <li><i class="bi bi-check-circle"></i> <span><strong>Desain Eksklusif:</strong> Kami menciptakan taman yang tidak hanya indah tetapi juga sesuai dengan karakter dan kebutuhan Anda.</span></li>
+            <li><i class="bi bi-check-circle"></i> <span><strong>Material Berkualitas:</strong> Menggunakan tanaman dan bahan terbaik untuk ketahanan jangka panjang.</span></li>
+            <li><i class="bi bi-check-circle"></i> <span><strong>Tim Profesional:</strong> Ditangani oleh tenaga ahli berpengalaman yang siap memberikan solusi terbaik.</span></li>
+            <li><i class="bi bi-check-circle"></i> <span><strong>Kenyamanan Maksimal:</strong> Kami memastikan proses pengerjaan cepat, rapi, dan sesuai ekspektasi Anda.</span></li>
           </ul>
+          <!-- 
           <div class="watch-video d-flex align-items-center position-relative">
-            <i class="bi bi-play-circle"></i>
-            <a href="https://www.youtube.com/watch?v=examplevideo" class="glightbox stretched-link">Watch Video</a>
+              <i class="bi bi-play-circle"></i>
+              <a href="https://www.youtube.com/watch?v=_QMEmCHDFMw" class="glightbox stretched-link">Watch Video</a>
           </div>
+          -->
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- /About Section -->
 
 
