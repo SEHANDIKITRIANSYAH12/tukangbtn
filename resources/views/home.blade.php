@@ -70,8 +70,8 @@
           <a href="#" class=""><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="{{ url('/jasa1') }}" target="_blank">Jasa Tukang Bangun Civil</a></li>
-            <li><a href="{{ url('/jasa2') }}" target="_blank">Jasa Tukang Desain Gambar<br>Dan Perencanaan</a></li>
-            <li><a href="{{ url('/jasa3') }}" target="_blank">Jasa Tukang Parquet</a></li>
+            <li><a href="{{ url('/jasa2') }}" target="_blank">Jasa Desain</a></li>
+            <li><a href="{{ url('/jasa3') }}" target="_blank">Jasa Parquet</a></li>
             <li><a href="{{ url('/jasa4') }}" target="_blank">Jasa Tukang Gajebo</a></li>
             <li><a href="{{ url('/jasa5') }}" target="_blank">Jasa Tukang Cleaning</a></li>
             <li><a href="{{ url('/jasa6') }}" target="_blank">Jasa Tukang Instalasi listrik</a></li>
@@ -165,7 +165,7 @@
       <img alt="Situs konstruksi dengan crane dan bangunan yang sedang dibangun" class="rounded-lg shadow-lg" height="400" src="https://sheltersengineering.com/wp-content/uploads/2023/06/Construction-Company-in-Islamabad.png" width="600"/>
     </div>
     <div class="flex flex-col justify-center">
-      <!-- <img alt="Gedung pencakar langit dan crane konstruksi" class="rounded-lg shadow-lg mb-8" height="400" src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=3394&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600"/> -->
+      <!-- \<img alt="Gedung pencakar langit dan crane konstruksi" class="rounded-lg shadow-lg mb-8" height="400" src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=3394&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="600"/> -->
       <ul class="space-y-4">
         <li class="flex items-center">
           <i class="fas fa-check-circle text-yellow-500 mr-2"></i>
@@ -271,7 +271,7 @@
       </div>
       <div class="col-xl-7 d-flex align-items-center">
         <div class="card-body">
-          <h4 class="card-title">Jasa Desain Gambar dan Perencanaan</h4>
+          <h4 class="card-title">Jasa Desain </h4>
           <table style="width: 100%; border-spacing: 0;">
             <tr>
               <td style="vertical-align: top; padding-right: 10px;">•</td>

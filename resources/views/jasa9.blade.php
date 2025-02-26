@@ -50,8 +50,8 @@
         <li class="dropdown"><a href="#" class="active"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
             <li><a href="{{ url('/jasa1') }}">Jasa Tukang Bangun Civil</a></li>
-            <li><a href="{{ url('/jasa2') }}">Jasa Tukang Desain Gambar<br>Dan Perencanaan</a></li>
-            <li><a href="{{ url('/jasa3') }}">Jasa Tukang Parquet</a></li>
+            <li><a href="{{ url('/jasa2') }}">Jasa Desain </a></li>
+            <li><a href="{{ url('/jasa3') }}">Jasa Parquet</a></li>
             <li><a href="{{ url('/jasa4') }}">Jasa Tukang Gajebo</a></li>
             <li><a href="{{ url('/jasa5') }}">Jasa Tukang Cleaning</a></li>
             <li><a href="{{ url('/jasa6') }}">Jasa Tukang Instalasi listrik</a></li>
