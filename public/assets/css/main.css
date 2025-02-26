@@ -1581,16 +1581,18 @@ section,
   }
 }
 
-/*Hubungi kami section*/
-
+/* Hubungi Kami Section */
 .contact1-section {
   padding: 50px 20px;
   background-color: #f0f4f8; /* Warna latar belakang yang lembut */
   text-align: center;
-  border-radius: 8px; /* Menambahkan lengkungan pada sudut section */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk kedalaman */
+  border-radius: 8px; /* Lengkungan pada sudut section */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  max-width: 900px; /* Batas lebar maksimal */
+  margin: auto; /* Agar section tetap berada di tengah */
 }
 
+/* Judul Section */
 .contact1-section .section-title h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
@@ -1599,37 +1601,63 @@ section,
 
 .contact1-section .section-title p {
   font-size: 1.2em;
-  color: #666;
+  color: #555; /* Warna lebih gelap agar lebih mudah dibaca */
   margin-bottom: 30px;
 }
 
+/* Konten Contact */
 .contact-content {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* Agar bisa turun ke bawah di layar kecil */
+  gap: 15px; /* Jarak antar elemen */
 }
 
+/* Tombol Contact */
 .btn-contact {
   padding: 12px 25px;
   font-size: 1.1em;
   color: #fff;
-  background-color: #007bff; /* Warna biru untuk tombol */
-  border-radius: 50px; /* Membuat tombol bulat */
+  background-color: #007bff; /* Warna biru */
+  border-radius: 50px;
   text-decoration: none;
-  transition: background-color 0.3s, transform 0.3s; /* Transisi untuk efek hover */
-  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Efek bayangan pada tombol */
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  display: inline-block;
 }
 
 .btn-contact:hover {
-  background-color: #0056b3; /* Warna saat hover */
-  transform: translateY(-3px); /* Efek angkat saat hover */
+  background-color: #0056b3;
+  transform: translateY(-3px);
 }
 
 .btn-contact:focus, 
 .btn-contact:active {
-  outline: none; /* Menghilangkan outline default */
-  color: #fff; /* Tetap warna putih */
-  background-color: #007bff; /* Pastikan warna tombol tetap sama */
+  outline: none;
+  color: #fff;
+  background-color: #007bff;
 }
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  .contact1-section {
+    padding: 40px 15px;
+  }
+
+  .contact1-section .section-title h2 {
+    font-size: 2em;
+  }
+
+  .contact1-section .section-title p {
+    font-size: 1em;
+  }
+
+  .btn-contact {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+}
+
 
 
 
@@ -3007,3 +3035,10 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+.hover-effect:hover {
+  color: #feb900 !important;
+  cursor: pointer;
+}
+
+

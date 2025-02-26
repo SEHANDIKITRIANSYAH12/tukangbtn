@@ -351,16 +351,19 @@
                 <div class="info-item text-center p-4" data-aos="fade-up" data-aos-delay="200">
                     <i class="bi bi-geo-alt fs-2 text-primary"></i>
                     <h4 class="mt-3">Alamat</h4>
-                    <p>Rangkasbitung, Lebak, Banten</p>
+                    <h3>Rangkasbitung, Lebak, Banten</h3>
                 </div>
             </div>
 
             <div class="col-lg-4">
                 <div class="info-item text-center p-4" data-aos="fade-up" data-aos-delay="300">
-                    <a href="https://wa.me/6281292948453" target="_blank" class="info-link text-decoration-none text-dark">
                         <i class="bi bi-telephone fs-2 text-success"></i>
-                        <h4 class="mt-3">Hubungi Kami</h4>
-                        <p>0812-9294-8453</p>
+                        <h4 class="mt-0">Hubungi Kami</h4>
+                        <a href="https://wa.me/6281292948453" target="_blank" class="info-link text-decoration-none text-dark fw-bold">
+                        <h3 class="hover-effect">Taufik: 0812-9294-8453</h3>
+                    </a>
+                    <a href="https://wa.me/62895332069227" target="_blank" class="info-link text-decoration-none text-dark fw-bold">
+                        <h3 class="hover-effect">Yusuf: 0895-3320-69227</h3>
                     </a>
                 </div>
             </div>
@@ -369,7 +372,7 @@
                 <div class="info-item text-center p-4" data-aos="fade-up" data-aos-delay="400">
                     <i class="bi bi-envelope fs-2 text-danger"></i>
                     <h4 class="mt-3">Email Kami</h4>
-                    <p><a href="mailto:TukangBanten@gmail.com" class="text-decoration-none text-dark">TukangBanten@gmail.com</a></p>
+                    <h3><a href="mailto:TukangBanten@gmail.com" class="text-decoration-none text-dark">TukangBanten@gmail.com</a></h3>
                 </div>
             </div>
 
